@@ -4,13 +4,13 @@
   "version": "${version}",
 
   "name": "All The Fan Made Discs",
-  "description": "This mod is inspired from the ressources packs 'All Fan Made Discs Minecraft' Part 1,2,3,4 and 5 by yomikester238 (https://www.youtube.com/c/yomikester238)",
+  "description": "This mod is inspired from the resources packs 'All Fan Made Discs Minecraft' Part 1,2,3,4 and 5 by yomikester238 (https://www.youtube.com/c/yomikester238)",
   "authors": [
-    "Supernoob, yomikester238"
+    "Supernoob, yomikester238 and all the talented artists"
   ],
   "contact": {
     "homepage": "Not Yet",
-    "sources": "Not Yet"
+    "sources": "https://github.com/SuperNoobYT/AllTheFanMadeDiscs"
   },
 
   "license": "CC0-1.0",
