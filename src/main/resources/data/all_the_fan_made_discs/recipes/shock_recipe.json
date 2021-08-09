@@ -1,0 +1,30 @@
+{
+  "group": "all_the_fan_made_discs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:chorus_flower"
+    },
+    "3": {
+      "item": "minecraft:grass_block"
+    },
+    "4": {
+      "item": "minecraft:pufferfish_bucket"
+    },
+    "5": {
+      "item": "minecraft:crimson_nylium"
+    },
+    "7": {
+      "item": "minecraft:tube_coral_block"
+    }
+  },
+  "result": {
+    "item": "all_the_fan_made_discs:music_disc_shock",
+    "count": 1
+  }
+}

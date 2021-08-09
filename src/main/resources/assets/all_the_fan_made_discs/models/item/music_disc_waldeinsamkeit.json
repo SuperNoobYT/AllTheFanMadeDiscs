@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "all_the_fan_made_discs:items/waldeinsamkeit"
+  }
+}

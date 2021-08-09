@@ -1,0 +1,587 @@
+{
+  "12": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "all_the_fan_made_discs:12",
+        "stream": true
+      }
+    ]
+  },
+  "14": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "all_the_fan_made_discs:14",
+        "stream": true
+      }
+    ]
+  },
+  "18": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "all_the_fan_made_discs:18",
+        "stream": true
+      }
+    ]
+  },
+  "anti": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "all_the_fan_made_discs:anti",
+        "stream": true
+      }
+    ]
+  },
+  "arcade": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "all_the_fan_made_discs:arcade",
+        "stream": true
+      }
+    ]
+  },
+  "axolotl": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "all_the_fan_made_discs:axolotl",
+        "stream": true
+      }
+    ]
+  },
+  "bedrock": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "all_the_fan_made_discs:bedrock",
+        "stream": true
+      }
+    ]
+  },
+  "birch_bop": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "all_the_fan_made_discs:birch_bop",
+        "stream": true
+      }
+    ]
+  },
+  "bricks": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "all_the_fan_made_discs:bricks",
+        "stream": true
+      }
+    ]
+  },
+  "carrot": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "all_the_fan_made_discs:carrot",
+        "stream": true
+      }
+    ]
+  },
+  "chill": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "all_the_fan_made_discs:chill",
+        "stream": true
+      }
+    ]
+  },
+  "chorus": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "all_the_fan_made_discs:chorus",
+        "stream": true
+      }
+    ]
+  },
+  "clay": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "all_the_fan_made_discs:clay",
+        "stream": true
+      }
+    ]
+  },
+  "cloud": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "all_the_fan_made_discs:cloud",
+        "stream": true
+      }
+    ]
+  },
+  "coral_lullaby": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "all_the_fan_made_discs:coral_lullaby",
+        "stream": true
+      }
+    ]
+  },
+  "cradle": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "all_the_fan_made_discs:cradle",
+        "stream": true
+      }
+    ]
+  },
+  "deep": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "all_the_fan_made_discs:deep",
+        "stream": true
+      }
+    ]
+  },
+  "deepslate": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "all_the_fan_made_discs:deepslate",
+        "stream": true
+      }
+    ]
+  },
+  "drifter": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "all_the_fan_made_discs:drifter",
+        "stream": true
+      }
+    ]
+  },
+  "enderwave": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "all_the_fan_made_discs:enderwave",
+        "stream": true
+      }
+    ]
+  },
+  "etheral": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "all_the_fan_made_discs:etheral",
+        "stream": true
+      }
+    ]
+  },
+  "finale": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "all_the_fan_made_discs:finale",
+        "stream": true
+      }
+    ]
+  },
+  "fledgling": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "all_the_fan_made_discs:fledgling",
+        "stream": true
+      }
+    ]
+  },
+  "float": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "all_the_fan_made_discs:float",
+        "stream": true
+      }
+    ]
+  },
+  "fort_stress": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "all_the_fan_made_discs:fort_stress",
+        "stream": true
+      }
+    ]
+  },
+  "frozen": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "all_the_fan_made_discs:frozen",
+        "stream": true
+      }
+    ]
+  },
+  "ghost": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "all_the_fan_made_discs:ghost",
+        "stream": true
+      }
+    ]
+  },
+  "ice": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "all_the_fan_made_discs:ice",
+        "stream": true
+      }
+    ]
+  },
+  "ice_and_rain": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "all_the_fan_made_discs:ice_and_rain",
+        "stream": true
+      }
+    ]
+  },
+  "industrial_green": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "all_the_fan_made_discs:industrial_green",
+        "stream": true
+      }
+    ]
+  },
+  "juke": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "all_the_fan_made_discs:juke",
+        "stream": true
+      }
+    ]
+  },
+  "lush": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "all_the_fan_made_discs:lush",
+        "stream": true
+      }
+    ]
+  },
+  "moonthical": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "all_the_fan_made_discs:moonthical",
+        "stream": true
+      }
+    ]
+  },
+  "mushroom": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "all_the_fan_made_discs:mushroom",
+        "stream": true
+      }
+    ]
+  },
+  "mushroom_island": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "all_the_fan_made_discs:mushroom_island",
+        "stream": true
+      }
+    ]
+  },
+  "ocean_disc": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "all_the_fan_made_discs:ocean_disc",
+        "stream": true
+      }
+    ]
+  },
+  "omen": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "all_the_fan_made_discs:omen",
+        "stream": true
+      }
+    ]
+  },
+  "orestep": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "all_the_fan_made_discs:orestep",
+        "stream": true
+      }
+    ]
+  },
+  "over": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "all_the_fan_made_discs:over",
+        "stream": true
+      }
+    ]
+  },
+  "phantom": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "all_the_fan_made_discs:phantom",
+        "stream": true
+      }
+    ]
+  },
+  "pillaged": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "all_the_fan_made_discs:pillaged",
+        "stream": true
+      }
+    ]
+  },
+  "prism": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "all_the_fan_made_discs:prism",
+        "stream": true
+      }
+    ]
+  },
+  "pumpkin": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "all_the_fan_made_discs:pumpkin",
+        "stream": true
+      }
+    ]
+  },
+  "range": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "all_the_fan_made_discs:range",
+        "stream": true
+      }
+    ]
+  },
+  "remnant": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "all_the_fan_made_discs:remnant",
+        "stream": true
+      }
+    ]
+  },
+  "shock": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "all_the_fan_made_discs:shock",
+        "stream": true
+      }
+    ]
+  },
+  "shulk": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "all_the_fan_made_discs:shulk",
+        "stream": true
+      }
+    ]
+  },
+  "scopophobia": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "all_the_fan_made_discs:scopophobia",
+        "stream": true
+      }
+    ]
+  },
+  "steve": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "all_the_fan_made_discs:steve",
+        "stream": true
+      }
+    ]
+  },
+  "stew": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "all_the_fan_made_discs:stew",
+        "stream": true
+      }
+    ]
+  },
+  "storm": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "all_the_fan_made_discs:storm",
+        "stream": true
+      }
+    ]
+  },
+  "string": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "all_the_fan_made_discs:string",
+        "stream": true
+      }
+    ]
+  },
+  "tall": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "all_the_fan_made_discs:tall",
+        "stream": true
+      }
+    ]
+  },
+  "time": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "all_the_fan_made_discs:time",
+        "stream": true
+      }
+    ]
+  },
+  "tricks": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "all_the_fan_made_discs:tricks",
+        "stream": true
+      }
+    ]
+  },
+  "trouble_in_the_mansion": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "all_the_fan_made_discs:trouble_in_the_mansion",
+        "stream": true
+      }
+    ]
+  },
+  "under_a_beautifully_dark_sky": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "all_the_fan_made_discs:under_a_beautifully_dark_sky",
+        "stream": true
+      }
+    ]
+  },
+  "vibrate": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "all_the_fan_made_discs:vibrate",
+        "stream": true
+      }
+    ]
+  },
+  "voyage": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "all_the_fan_made_discs:voyage",
+        "stream": true
+      }
+    ]
+  },
+  "waldeinsamkeit": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "all_the_fan_made_discs:waldeinsamkeit",
+        "stream": true
+      }
+    ]
+  },
+  "wandering_soul": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "all_the_fan_made_discs:wandering_soul",
+        "stream": true
+      }
+    ]
+  },
+  "warped": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "all_the_fan_made_discs:warped",
+        "stream": true
+      }
+    ]
+  },
+  "weird": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "all_the_fan_made_discs:weird",
+        "stream": true
+      }
+    ]
+  },
+  "woodland": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "all_the_fan_made_discs:woodland",
+        "stream": true
+      }
+    ]
+  },
+  "wozzy": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "all_the_fan_made_discs:wozzy",
+        "stream": true
+      }
+    ]
+  }
+}
