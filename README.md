@@ -4,4 +4,4 @@ This mod is inspired from the ressources packs 'All Fan Made Discs Minecraft' Pa
 
 [The originals RessourcePacks](https://www.planetminecraft.com/collection/123393/all-the-fan-made-discs/)
 
-For The moment only 20 out of 65 disc are obtainnable in survival mode (WIP).
+For The moment only 20 out of 65 discs are obtainnable in survival mode (WIP).
