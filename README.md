@@ -1,4 +1,4 @@
-# AllTheFanMadeDiscs
+# All The Fan Made Discs
 
 This mod is inspired from the ressources packs 'All Fan Made Discs Minecraft' Part 1,2,3,4 and 5 by yomikester238 and it add 65 new music discs to the game !
 
