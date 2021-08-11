@@ -1,6 +1,7 @@
 package com.supernoob.atfmd;
 
 import com.supernoob.atfmd.registry.ModItems;
+import com.supernoob.atfmd.registry.ModLootTables;
 import com.supernoob.atfmd.registry.ModSounds;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
@@ -13,7 +14,7 @@ public class ATFMD implements ModInitializer {
     public static final String MOD_ID = "all_the_fan_made_discs";
 
     public static final ItemGroup ATFMD_TAB = FabricItemGroupBuilder.create(
-            new Identifier(MOD_ID, "atfmd_tab"))
+                    new Identifier(MOD_ID, "atfmd_tab"))
             .icon(() -> new ItemStack(ModItems.LUSH))
             .appendItems(stacks -> {
                 stacks.add(new ItemStack(ModItems.TWELVE));
@@ -89,5 +90,7 @@ public class ATFMD implements ModInitializer {
 
         ModItems.init();
         ModSounds.init();
+        ModLootTables.init();
     }
+
 }
