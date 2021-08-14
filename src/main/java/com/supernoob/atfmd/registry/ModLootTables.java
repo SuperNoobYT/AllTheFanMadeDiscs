@@ -1,11 +1,8 @@
 package com.supernoob.atfmd.registry;
 
 import com.supernoob.atfmd.ATFMD;
-import net.fabricmc.fabric.api.loot.v1.FabricLootPoolBuilder;
-import net.fabricmc.fabric.api.loot.v1.event.LootTableLoadingCallback;
-import net.minecraft.loot.entry.LootTableEntry;
-import net.minecraft.loot.provider.number.ConstantLootNumberProvider;
 import net.minecraft.util.Identifier;
+import com.supernoob.atfmd.object.LootTable;
 
 public class ModLootTables {
 
@@ -35,79 +32,17 @@ public class ModLootTables {
     public static final Identifier WITHER_ID = new Identifier("minecraft", "entities/wither");
 
     public static void init() {
-        LootTableLoadingCallback.EVENT.register((resourceManager, manager, id, supplier, setter) -> {
-            if (ABANDONED_MINESHAFT_ID.equals(id)) {
-                FabricLootPoolBuilder poolBuilder = FabricLootPoolBuilder.builder()
-                        .rolls(ConstantLootNumberProvider.create(1))
-                        .with(LootTableEntry.builder(STRING_LOOTTABLE_ID));
-                supplier.withPool(poolBuilder.build());
-            }
-            if (BURIED_TRASURE_ID.equals(id)) {
-                FabricLootPoolBuilder poolBuilder = FabricLootPoolBuilder.builder()
-                        .rolls(ConstantLootNumberProvider.create(1))
-                        .with(LootTableEntry.builder(AXOLOTL_LOOTTABLE_ID));
-                supplier.withPool(poolBuilder.build());
-            }
-            if (BASTION_TRASURE_ID.equals(id)) {
-                FabricLootPoolBuilder poolBuilder = FabricLootPoolBuilder.builder()
-                        .rolls(ConstantLootNumberProvider.create(1))
-                        .with(LootTableEntry.builder(REMNANT_LOOTTABLE_ID));
-                supplier.withPool(poolBuilder.build());
-            }
-            if (END_CITY_TRASURE_ID.equals(id)) {
-                FabricLootPoolBuilder poolBuilder = FabricLootPoolBuilder.builder()
-                        .rolls(ConstantLootNumberProvider.create(1))
-                        .with(LootTableEntry.builder(END_CITY_LOOTTABLE_ID));
-                supplier.withPool(poolBuilder.build());
-            }
-            if (IGLOO_CHEST_ID.equals(id)) {
-                FabricLootPoolBuilder poolBuilder = FabricLootPoolBuilder.builder()
-                        .rolls(ConstantLootNumberProvider.create(1))
-                        .with(LootTableEntry.builder(IGLOO_LOOTTABLE_ID));
-                supplier.withPool(poolBuilder.build());
-            }
-            if (NETHER_BRIDGE_ID.equals(id)) {
-                FabricLootPoolBuilder poolBuilder = FabricLootPoolBuilder.builder()
-                        .rolls(ConstantLootNumberProvider.create(1))
-                        .with(LootTableEntry.builder(FORT_STRESS_LOOTTABLE_ID));
-                supplier.withPool(poolBuilder.build());
-            }
-            if (PILLAGER_OUTPOST_ID.equals(id)) {
-                FabricLootPoolBuilder poolBuilder = FabricLootPoolBuilder.builder()
-                        .rolls(ConstantLootNumberProvider.create(1))
-                        .with(LootTableEntry.builder(PILLAGER_LOOTTABLE_ID));
-                supplier.withPool(poolBuilder.build());
-            }
-            if (SHIPWRECK_TRASURE_ID.equals(id)) {
-                FabricLootPoolBuilder poolBuilder = FabricLootPoolBuilder.builder()
-                        .rolls(ConstantLootNumberProvider.create(1))
-                        .with(LootTableEntry.builder(SHIPWRECK_LOOTTABLE_ID));
-                supplier.withPool(poolBuilder.build());
-            }
-            if (UNDERWATER_RUIN_BIG_ID.equals(id)) {
-                FabricLootPoolBuilder poolBuilder = FabricLootPoolBuilder.builder()
-                        .rolls(ConstantLootNumberProvider.create(1))
-                        .with(LootTableEntry.builder(UNDERWATER_RUIN_LOOTTABLE_ID));
-                supplier.withPool(poolBuilder.build());
-            }
-            if (WOODLAND_MANSION_ID.equals(id)) {
-                FabricLootPoolBuilder poolBuilder = FabricLootPoolBuilder.builder()
-                        .rolls(ConstantLootNumberProvider.create(1))
-                        .with(LootTableEntry.builder(MANSION_LOOTTABLE_ID));
-                supplier.withPool(poolBuilder.build());
-            }
-            if (ENDER_DRAGON_ID.equals(id)) {
-                FabricLootPoolBuilder poolBuilder = FabricLootPoolBuilder.builder()
-                        .rolls(ConstantLootNumberProvider.create(1))
-                        .with(LootTableEntry.builder(ENDERWAVE_LOOTTABLE_ID));
-                supplier.withPool(poolBuilder.build());
-            }
-            if (WITHER_ID.equals(id)) {
-                FabricLootPoolBuilder poolBuilder = FabricLootPoolBuilder.builder()
-                        .rolls(ConstantLootNumberProvider.create(1))
-                        .with(LootTableEntry.builder(FINALE_LOOTTABLE_ID));
-                supplier.withPool(poolBuilder.build());
-            }
-        });
+        LootTable.ModifyLootTable(ABANDONED_MINESHAFT_ID, STRING_LOOTTABLE_ID);
+        LootTable.ModifyLootTable(BASTION_TRASURE_ID, REMNANT_LOOTTABLE_ID);
+        LootTable.ModifyLootTable(BURIED_TRASURE_ID, AXOLOTL_LOOTTABLE_ID);
+        LootTable.ModifyLootTable(END_CITY_TRASURE_ID, END_CITY_LOOTTABLE_ID);
+        LootTable.ModifyLootTable(IGLOO_CHEST_ID, IGLOO_LOOTTABLE_ID);
+        LootTable.ModifyLootTable(NETHER_BRIDGE_ID, FORT_STRESS_LOOTTABLE_ID);
+        LootTable.ModifyLootTable(PILLAGER_OUTPOST_ID, PILLAGER_LOOTTABLE_ID);
+        LootTable.ModifyLootTable(SHIPWRECK_TRASURE_ID, SHIPWRECK_LOOTTABLE_ID);
+        LootTable.ModifyLootTable(UNDERWATER_RUIN_BIG_ID, UNDERWATER_RUIN_LOOTTABLE_ID);
+        LootTable.ModifyLootTable(WOODLAND_MANSION_ID, MANSION_LOOTTABLE_ID);
+        LootTable.ModifyLootTable(ENDER_DRAGON_ID, ENDERWAVE_LOOTTABLE_ID);
+        LootTable.ModifyLootTable(WITHER_ID, FINALE_LOOTTABLE_ID);
     }
 }
