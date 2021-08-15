@@ -4,7 +4,7 @@
   "pattern": [
     "#F#",
     "MOM",
-    "#I#"
+    "#M#"
   ],
   "key": {
     "#": {
@@ -18,13 +18,10 @@
     },
     "O": {
       "item": "minecraft:obsidian"
-    },
-    "I": {
-      "item": "minecraft:infested_mossy_stone_bricks"
     }
   },
   "result": {
-    "item": "minecraft:mossy_stone_bricks",
+    "item": "all_the_fan_made_disc",
     "count": 1
   }
 }
