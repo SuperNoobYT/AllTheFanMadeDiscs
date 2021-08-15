@@ -1,0 +1,30 @@
+{
+  "group": "all_the_fan_made_disc",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#F#",
+    "MOM",
+    "#I#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:moss_block"
+    },
+    "F": {
+      "item": "minecraft:flowering_azalea"
+    },
+    "M": {
+      "item": "minecraft:mossy_stone_bricks"
+    },
+    "O": {
+      "item": "minecraft:obsidian"
+    },
+    "I": {
+      "item": "minecraft:infested_mossy_stone_bricks"
+    }
+  },
+  "result": {
+    "item": "minecraft:mossy_stone_bricks",
+    "count": 1
+  }
+}
