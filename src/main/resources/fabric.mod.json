@@ -1,1 +1,39 @@
-{"schemaVersion":1,"id":"all_the_fan_made_discs","version":"${version}","name":"All The Fan Made Discs","description":"This mod is inspired from the resources packs 'All Fan Made Discs Minecraft' Part 1,2,3,4 and 5 by yomikester238","authors":["Supernoob","yomikester238",""],"contributors":["Music discs artists :","","Terraainn","bling-bling","Firch","NapstheBlock","Epicuras","Yekonaip","Musical-MOE","ToastDot.39","CarrotAndCo","maplemickey","Deesaster","Black Jacket","4Pointzx","Waelsor","BenjaMint","rsym","Someone","Gwyd","ChillCrafter","Thaumic Lad","Pikpik36","Spooky Skeleton","JamiesName","prod. akobe","mango uni","A Peace of Pie","GreenBurning","E_Pixelz /","Pugasaur","Tandem Music","Jupiter and co","Pretty Decent","Sillst","Rip Bot308","Kowhai","Medlek","Skilpadde 14","Lost Angel","2R8B7","RinaXTune","Repulsive-Vegetable5","Kam Yumayui","wet hamster","Beto Damian"],"contact":{"homepage":"https://www.curseforge.com/minecraft/mc-mods/all-the-fan-made-discs","sources":"https://github.com/SuperNoobYT/AllTheFanMadeDiscs","issues":"https://github.com/SuperNoobYT/AllTheFanMadeDiscs/issues"},"license":"CC0-1.0","icon":"assets/all_the_fan_made_discs/icon.png","environment":"*","entrypoints":{"main":["com.supernoob.atfmd.ATFMD"]},"mixins":[],"depends":{"fabricloader":">=0.11.3","fabric":"*","minecraft":">=1.17","java":">=16"},"suggests":{},"custom":{"modupdater":{"strategy":"curseforge","projectID":513686,"strict":false},"modmenu":{"links":{"Supernoob's channel":"https://www.youtube.com/c/SupernoobMC","yomikester238's channel":"https://www.youtube.com/c/yomikester238"}}}}
+{
+  "schemaVersion":1,
+  "id":"all_the_fan_made_discs",
+  "version":"${version}",
+  "name":"All The Fan Made Discs",
+  "description":"This mod is inspired from the resources packs 'All Fan Made Discs Minecraft' Part 1,2,3,4,5 and 6 by yomikester238",
+  "authors":["Supernoob","yomikester238",""],
+  "contributors":["Music discs artists :","","Terraainn","The Bling-Bling Cheese","Firch","NapstheBlock","Epicuras","Yekonaip","Musical-MOE","ToastDot.39","CarrotAndCo","maplemickey","Deesaster","Black Jacket","4Pointzx","Waelsor","BenjaMint","rsym","Someone","Gwyd","ChillCrafter","Thaumic Lad","Pikpik36","Spooky Skeleton","JamiesName","prod. akobe","mango uni","A Peace of Pie","GreenBurning","E_Pixelz /","Pugasaur","Tandem Music","Jupiter and co","Pretty Decent","Sillst","Rip Bot308","Kowhai","Medlek","Skilpadde 14","Lost Angel","2R8B7","RinaXTune","Repulsive-Vegetable5","Kam Yumayui","wet hamster","Beto Damian","Toma","Abysser GG","zoo937","RedWolfNinja","The Watcher","LudoCrypt"],
+  ",contact":{
+    "homepage":"https://www.curseforge.com/minecraft/mc-mods/all-the-fan-made-discs",
+    "sources":"https://github.com/SuperNoobYT/AllTheFanMadeDiscs",
+    "issues":"https://github.com/SuperNoobYT/AllTheFanMadeDiscs/issues"
+  },
+  "license":"CC0-1.0",
+  "icon":"assets/all_the_fan_made_discs/icon.png",
+  "environment":"*",
+  "entrypoints":{
+    "main":["com.supernoob.atfmd.ATFMD"]
+  },
+  "mixins":[],
+  "depends":
+  {
+    "fabricloader":">=0.11.3",
+    "fabric":"*",
+    "minecraft":">=1.17",
+    "java":">=16"},
+  "suggests":{},
+  "custom":{"modupdater":{
+    "strategy":"curseforge",
+    "projectID":513686,
+    "strict":false},
+    "modmenu":
+    {"links":
+    {
+      "Supernoob's channel":"https://www.youtube.com/c/SupernoobMC", "yomikester238's channel":"https://www.youtube.com/c/yomikester238"
+    }
+    }
+  }
+}
