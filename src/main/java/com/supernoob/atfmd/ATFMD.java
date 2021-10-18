@@ -19,14 +19,19 @@ public class ATFMD implements ModInitializer {
             .appendItems(stacks -> {
                 stacks.add(new ItemStack(ModItems.TWELVE));
                 stacks.add(new ItemStack(ModItems.FOURTEEN));
+                stacks.add(new ItemStack(ModItems.FOURTEEN_REVAMPED));
                 stacks.add(new ItemStack(ModItems.EIGHTEEN));
                 stacks.add(new ItemStack(ModItems.ANTI));
                 stacks.add(new ItemStack(ModItems.ARCADE));
                 stacks.add(new ItemStack(ModItems.AXOLOTL));
                 stacks.add(new ItemStack(ModItems.BEDROCK));
                 stacks.add(new ItemStack(ModItems.BIRCH_BOP));
+                stacks.add(new ItemStack(ModItems.BRAIN_SPLOSHED));
                 stacks.add(new ItemStack(ModItems.BRICKS));
                 stacks.add(new ItemStack(ModItems.CARROT));
+                stacks.add(new ItemStack(ModItems.CHAOS));
+                stacks.add(new ItemStack(ModItems.CHARR));
+                stacks.add(new ItemStack(ModItems.CHICKENBOAT));
                 stacks.add(new ItemStack(ModItems.CHILL));
                 stacks.add(new ItemStack(ModItems.CHORUS));
                 stacks.add(new ItemStack(ModItems.CLAY));
@@ -38,6 +43,7 @@ public class ATFMD implements ModInitializer {
                 stacks.add(new ItemStack(ModItems.DRIFTER));
                 stacks.add(new ItemStack(ModItems.ENDERWAVE));
                 stacks.add(new ItemStack(ModItems.ETHERAL));
+                stacks.add(new ItemStack(ModItems.EVOKER));
                 stacks.add(new ItemStack(ModItems.FINALE));
                 stacks.add(new ItemStack(ModItems.FLEDGLING));
                 stacks.add(new ItemStack(ModItems.FLOAT));
@@ -47,8 +53,11 @@ public class ATFMD implements ModInitializer {
                 stacks.add(new ItemStack(ModItems.ICE));
                 stacks.add(new ItemStack(ModItems.ICE_AND_RAIN));
                 stacks.add(new ItemStack(ModItems.INDUSTRIAL_GREEN));
+                stacks.add(new ItemStack(ModItems.INTO_THE_JUNGLE));
                 stacks.add(new ItemStack(ModItems.JUKE));
                 stacks.add(new ItemStack(ModItems.LUSH));
+                stacks.add(new ItemStack(ModItems.MELLOWFRUIT));
+                stacks.add(new ItemStack(ModItems.MOOBLOOM));
                 stacks.add(new ItemStack(ModItems.MOONTHICAL));
                 stacks.add(new ItemStack(ModItems.MUSHROOM));
                 stacks.add(new ItemStack(ModItems.MUSHROOM_ISLAND));
@@ -56,9 +65,12 @@ public class ATFMD implements ModInitializer {
                 stacks.add(new ItemStack(ModItems.OMEN));
                 stacks.add(new ItemStack(ModItems.OVER));
                 stacks.add(new ItemStack(ModItems.ORESTEP));
+                stacks.add(new ItemStack(ModItems.OXIDIZATION));
+                stacks.add(new ItemStack(ModItems.PETIOLE));
                 stacks.add(new ItemStack(ModItems.PHANTOM));
                 stacks.add(new ItemStack(ModItems.PILLAGED));
                 stacks.add(new ItemStack(ModItems.PRISM));
+                stacks.add(new ItemStack(ModItems.PRISMARINE));
                 stacks.add(new ItemStack(ModItems.PUMPKIN));
                 stacks.add(new ItemStack(ModItems.RANGE));
                 stacks.add(new ItemStack(ModItems.REMNANT));
@@ -80,6 +92,7 @@ public class ATFMD implements ModInitializer {
                 stacks.add(new ItemStack(ModItems.WANDERING_SOUL));
                 stacks.add(new ItemStack(ModItems.WARPED));
                 stacks.add(new ItemStack(ModItems.WEIRD));
+                stacks.add(new ItemStack(ModItems.WITHERING));
                 stacks.add(new ItemStack(ModItems.WOODLAND));
                 stacks.add(new ItemStack(ModItems.WOZZY));
             })
@@ -92,5 +105,4 @@ public class ATFMD implements ModInitializer {
         ModSounds.init();
         ModLootTables.init();
     }
-
 }

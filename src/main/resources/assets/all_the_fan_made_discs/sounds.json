@@ -17,6 +17,15 @@
       }
     ]
   },
+  "14_revamped": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "all_the_fan_made_discs:14_revamped",
+        "stream": true
+      }
+    ]
+  },
   "18": {
     "category": "record",
     "sounds": [
@@ -71,6 +80,15 @@
       }
     ]
   },
+  "brain_sploshed": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "all_the_fan_made_discs:brain_sploshed",
+        "stream": true
+      }
+    ]
+  },
   "bricks": {
     "category": "record",
     "sounds": [
@@ -85,6 +103,33 @@
     "sounds": [
       {
         "name": "all_the_fan_made_discs:carrot",
+        "stream": true
+      }
+    ]
+  },
+  "chaos": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "all_the_fan_made_discs:chaos",
+        "stream": true
+      }
+    ]
+  },
+  "charr": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "all_the_fan_made_discs:charr",
+        "stream": true
+      }
+    ]
+  },
+  "chickenboat": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "all_the_fan_made_discs:chickenboat",
         "stream": true
       }
     ]
@@ -188,6 +233,15 @@
       }
     ]
   },
+  "evoker": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "all_the_fan_made_discs:evoker",
+        "stream": true
+      }
+    ]
+  },
   "finale": {
     "category": "record",
     "sounds": [
@@ -269,6 +323,15 @@
       }
     ]
   },
+  "into_the_jungle": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "all_the_fan_made_discs:into_the_jungle",
+        "stream": true
+      }
+    ]
+  },
   "juke": {
     "category": "record",
     "sounds": [
@@ -283,6 +346,24 @@
     "sounds": [
       {
         "name": "all_the_fan_made_discs:lush",
+        "stream": true
+      }
+    ]
+  },
+  "mellowfruit": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "all_the_fan_made_discs:mellowfruit",
+        "stream": true
+      }
+    ]
+  },
+  "moobloom": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "all_the_fan_made_discs:moobloom",
         "stream": true
       }
     ]
@@ -350,6 +431,24 @@
       }
     ]
   },
+  "oxidization": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "all_the_fan_made_discs:oxidization",
+        "stream": true
+      }
+    ]
+  },
+  "petiole": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "all_the_fan_made_discs:petiole",
+        "stream": true
+      }
+    ]
+  },
   "phantom": {
     "category": "record",
     "sounds": [
@@ -373,6 +472,15 @@
     "sounds": [
       {
         "name": "all_the_fan_made_discs:prism",
+        "stream": true
+      }
+    ]
+  },
+  "prismarine": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "all_the_fan_made_discs:prismarine",
         "stream": true
       }
     ]
@@ -562,6 +670,15 @@
     "sounds": [
       {
         "name": "all_the_fan_made_discs:weird",
+        "stream": true
+      }
+    ]
+  },
+  "withering": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "all_the_fan_made_discs:withering",
         "stream": true
       }
     ]
