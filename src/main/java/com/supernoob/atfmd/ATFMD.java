@@ -3,15 +3,21 @@ package com.supernoob.atfmd;
 import com.supernoob.atfmd.registry.ModItems;
 import com.supernoob.atfmd.registry.ModLootTables;
 import com.supernoob.atfmd.registry.ModSounds;
+import com.supernoob.atfmd.registry.ModStructures;
+import net.fabricmc.api.ClientModInitializer;
+import net.fabricmc.api.DedicatedServerModInitializer;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.Identifier;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
-public class ATFMD implements ModInitializer {
+public class ATFMD implements ModInitializer, DedicatedServerModInitializer, ClientModInitializer {
 
     public static final String MOD_ID = "all_the_fan_made_discs";
+    public static final Logger LOGGER = LogManager.getLogger();
 
     public static final ItemGroup ATFMD_TAB = FabricItemGroupBuilder.create(
                     new Identifier(MOD_ID, "atfmd_tab"))
@@ -99,10 +105,20 @@ public class ATFMD implements ModInitializer {
             .build();
 
     @Override
-    public void onInitialize() {
+    public void onInitializeServer() {
+        ModStructures.removeStructureSpawningFromSelectedDimension();
+    }
 
+    @Override
+    public void onInitializeClient() {
+        ModStructures.removeStructureSpawningFromSelectedDimension();
+    }
+
+    @Override
+    public void onInitialize() {
         ModItems.init();
         ModSounds.init();
         ModLootTables.init();
+        ModStructures.init();
     }
 }

@@ -17,13 +17,14 @@
   "entrypoints":{
     "main":["com.supernoob.atfmd.ATFMD"]
   },
-  "mixins":[],
+  "mixins":["atfmd.mixins.json"],
   "depends":
   {
     "fabricloader":">=0.11.3",
     "fabric":"*",
     "minecraft":">=1.17",
-    "java":">=16"},
+    "java":">=16"
+  },
   "suggests":{},
   "custom":{"modupdater":{
     "strategy":"curseforge",
