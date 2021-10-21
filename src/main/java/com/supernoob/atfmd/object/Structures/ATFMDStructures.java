@@ -11,9 +11,8 @@ import net.minecraft.world.gen.feature.FeatureConfig;
 import net.minecraft.world.gen.feature.StructureFeature;
 
 public class ATFMDStructures {
-
     /**
-    /**
+     /**
      * Registers the structure itself and sets what its path is. In this case, the
      * structure will have the Identifier of structure_tutorial:run_down_house.
      *
@@ -28,6 +27,9 @@ public class ATFMDStructures {
      */
     public static void setupAndRegisterStructureFeatures() {
 
+        // This is Fabric API's builder for structures.
+        // It has many options to make sure your structure will spawn and work properly.
+        // Give it your structure and the identifier you want for it.
         FabricStructureBuilder.create(new Identifier(ATFMD.MOD_ID, "bedrock_disc"), BEDROCK_DISC_STRUCTURE)
 
                 /* Generation stage for when to generate the structure. there are 10 stages you can pick from!
@@ -36,8 +38,8 @@ public class ATFMDStructures {
 
                 .defaultConfig(new StructureConfig(
                         10, /* average distance apart in chunks between spawn attempts */
-                        9, /* minimum distance apart in chunks between spawn attempts. MUST BE LESS THAN ABOVE VALUE */
-                        879087145 /* this modifies the seed of the structure so no two structures always spawn over each-other. Make this large and unique. */))
+                        4, /* minimum distance apart in chunks between spawn attempts. MUST BE LESS THAN ABOVE VALUE */
+                        879787145 /* this modifies the seed of the structure so no two structures always spawn over each-other. Make this large and unique. */))
 
                 /* Always set this or else re-entering SuperFlat worldtype will crash.
                    Getting structures to spawn in Superflat is a bit buggy right now so don't focus too much on this. */

@@ -19,6 +19,7 @@
   import java.util.Map;
 
   public class ModStructures {
+      @SuppressWarnings("deprecation")
       public static void init() {
           /*
            * We setup and register our structures here.
@@ -46,9 +47,7 @@
 
                           // context is basically the biome itself. This is where you do the changes to the biome.
                           // Here, we will add our ConfiguredStructureFeature to the biome.
-                          context -> {
-                              context.getGenerationSettings().addBuiltInStructure(ATFMDConfiguredStructures.CONFIGURED_BEDROCK_DISC);
-                          });
+                          context -> context.getGenerationSettings().addBuiltInStructure(ATFMDConfiguredStructures.CONFIGURED_BEDROCK_DISC));
       }
 
       public static void removeStructureSpawningFromSelectedDimension() {

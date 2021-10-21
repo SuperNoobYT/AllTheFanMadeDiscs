@@ -105,20 +105,20 @@ public class ATFMD implements ModInitializer, DedicatedServerModInitializer, Cli
             .build();
 
     @Override
-    public void onInitializeServer() {
-        ModStructures.removeStructureSpawningFromSelectedDimension();
-    }
-
-    @Override
-    public void onInitializeClient() {
-        ModStructures.removeStructureSpawningFromSelectedDimension();
-    }
-
-    @Override
     public void onInitialize() {
         ModItems.init();
         ModSounds.init();
         ModLootTables.init();
         ModStructures.init();
+        ModStructures.removeStructureSpawningFromSelectedDimension();
     }
-}
+        @Override
+        public void onInitializeServer () {
+            ModStructures.removeStructureSpawningFromSelectedDimension();
+        }
+
+        @Override
+        public void onInitializeClient () {
+            ModStructures.removeStructureSpawningFromSelectedDimension();
+        }
+    }
