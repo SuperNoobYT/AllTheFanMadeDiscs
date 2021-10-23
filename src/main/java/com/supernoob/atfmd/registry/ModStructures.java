@@ -21,22 +21,8 @@
   public class ModStructures {
       @SuppressWarnings("deprecation")
       public static void init() {
-          /*
-           * We setup and register our structures here.
-           * You should always register your stuff to prevent mod compatibility issue down the line.
-           */
           ATFMDStructures.setupAndRegisterStructureFeatures();
           ATFMDConfiguredStructures.registerConfiguredStructures();
-
-          /*
-           * This is the API you will use to add anything to any biome.
-           * This includes spawns, changing the biome's looks, messing with its surfacebuilders,
-           * adding carvers, spawning new features... etc
-           *
-           * Make sure you give this an identifier to make it clear later what mod did a change and why.
-           * It'll help people look to see if your mod was removing something from biomes.
-           * The biome modifier identifier might also be used by modpacks to disable mod's modifiers too for customization.
-           */
           BiomeModifications.create(new Identifier(ATFMD.MOD_ID, "bedrock_disc_addition"))
                   .add(   // Describes what we are doing. SInce we are adding a structure, we choose ADDITIONS.
                           ModificationPhase.ADDITIONS,

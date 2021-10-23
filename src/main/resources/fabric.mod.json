@@ -15,13 +15,15 @@
   "icon":"assets/all_the_fan_made_discs/icon.png",
   "environment":"*",
   "entrypoints":{
+    "client": ["com.supernoob.atfmd.ATFMD"],
+    "server": ["com.supernoob.atfmd.ATFMD"],
     "main":["com.supernoob.atfmd.ATFMD"]
   },
   "mixins":["atfmd.mixins.json"],
   "depends":
   {
     "fabricloader":">=0.11.3",
-    "fabric":"*",
+    "fabric":">=0.34.9",
     "minecraft":">=1.17",
     "java":">=16"
   },
