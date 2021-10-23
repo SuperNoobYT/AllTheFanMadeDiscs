@@ -1,6 +1,6 @@
 {
   "required": true,
-  "minVersion": "0.8.4",
+  "minVersion": "0.8.2",
   "package": "com.supernoob.atfmd.mixin",
   "compatibilityLevel": "JAVA_16",
   "mixins": [
