@@ -17,7 +17,8 @@
   "entrypoints":{
     "client": ["com.supernoob.atfmd.ATFMD"],
     "server": ["com.supernoob.atfmd.ATFMD"],
-    "main":["com.supernoob.atfmd.ATFMD"]
+    "main":["com.supernoob.atfmd.ATFMD"],
+    "modmenu": ["com.supernoob.atfmd.ModMenuIntegration"]
   },
   "mixins":["atfmd.mixins.json"],
   "depends":
