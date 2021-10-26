@@ -5,8 +5,6 @@ import com.supernoob.atfmd.registry.ModItems;
 import com.supernoob.atfmd.registry.ModLootTables;
 import com.supernoob.atfmd.registry.ModSounds;
 import com.supernoob.atfmd.registry.ModStructures;
-import me.shedaniel.autoconfig.AutoConfig;
-import me.shedaniel.autoconfig.serializer.Toml4jConfigSerializer;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.api.DedicatedServerModInitializer;
 import net.fabricmc.api.ModInitializer;

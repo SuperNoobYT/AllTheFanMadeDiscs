@@ -2,7 +2,6 @@ package com.supernoob.atfmd.object.StructuresFeatures;
 
 import com.mojang.serialization.Codec;
 import com.supernoob.atfmd.ATFMD;
-import com.supernoob.atfmd.config.ModConfig;
 import net.minecraft.block.BlockState;
 import net.minecraft.structure.MarginedStructureStart;
 import net.minecraft.structure.PoolStructurePiece;

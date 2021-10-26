@@ -21,12 +21,6 @@ public class ModConfig implements ConfigData {
         public int Min_Y = 6;
         public boolean SpawnStructure = true;
     }
-
-    @Override
-    public void validatePostLoad() throws ValidationException {
-
-    }
-
     public static void init() {
         AutoConfig.register(ModConfig.class, Toml4jConfigSerializer::new);
         ATFMD.CONFIG = AutoConfig.getConfigHolder(ModConfig.class).getConfig();

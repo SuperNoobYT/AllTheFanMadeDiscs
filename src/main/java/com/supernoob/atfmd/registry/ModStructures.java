@@ -1,11 +1,9 @@
   package com.supernoob.atfmd.registry;
 
   import com.supernoob.atfmd.ATFMD;
-  import com.supernoob.atfmd.config.ModConfig;
   import com.supernoob.atfmd.mixin.StructuresConfigAccessor;
   import com.supernoob.atfmd.object.Structures.ATFMDConfiguredStructures;
   import com.supernoob.atfmd.object.Structures.ATFMDStructures;
-  import com.terraformersmc.modmenu.util.mod.Mod;
   import net.fabricmc.fabric.api.biome.v1.BiomeModifications;
   import net.fabricmc.fabric.api.biome.v1.BiomeSelectors;
   import net.fabricmc.fabric.api.biome.v1.ModificationPhase;
