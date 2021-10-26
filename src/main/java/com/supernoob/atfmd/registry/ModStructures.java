@@ -5,6 +5,7 @@
   import com.supernoob.atfmd.mixin.StructuresConfigAccessor;
   import com.supernoob.atfmd.object.Structures.ATFMDConfiguredStructures;
   import com.supernoob.atfmd.object.Structures.ATFMDStructures;
+  import com.terraformersmc.modmenu.util.mod.Mod;
   import net.fabricmc.fabric.api.biome.v1.BiomeModifications;
   import net.fabricmc.fabric.api.biome.v1.BiomeSelectors;
   import net.fabricmc.fabric.api.biome.v1.ModificationPhase;
@@ -35,7 +36,7 @@
           ServerWorldEvents.LOAD.register((MinecraftServer minecraftServer, ServerWorld serverWorld)->{
               Map<StructureFeature<?>, StructureConfig> tempMap = new HashMap<>(serverWorld.getChunkManager().getChunkGenerator().getStructuresConfig().getStructures());
 
-              if(!serverWorld.getRegistryKey().equals(World.OVERWORLD)||!ModConfig.general_config.SpawnStructure){
+              if(!serverWorld.getRegistryKey().equals(World.OVERWORLD)||!ATFMD.CONFIG.stuff.SpawnStructure){
                   tempMap.keySet().remove(ATFMDStructures.BEDROCK_DISC_STRUCTURE);
               }
               ((StructuresConfigAccessor)serverWorld.getChunkManager().getChunkGenerator().getStructuresConfig()).setStructures(tempMap);

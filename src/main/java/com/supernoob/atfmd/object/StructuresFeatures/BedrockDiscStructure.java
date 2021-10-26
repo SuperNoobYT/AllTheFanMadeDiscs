@@ -3,10 +3,7 @@ package com.supernoob.atfmd.object.StructuresFeatures;
 import com.mojang.serialization.Codec;
 import com.supernoob.atfmd.ATFMD;
 import com.supernoob.atfmd.config.ModConfig;
-import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
-import net.minecraft.block.Blocks;
-import net.minecraft.block.Material;
 import net.minecraft.structure.MarginedStructureStart;
 import net.minecraft.structure.PoolStructurePiece;
 import net.minecraft.structure.StructureManager;
@@ -41,9 +38,9 @@ public class BedrockDiscStructure extends StructureFeature<DefaultFeatureConfig>
     }
     public static int randomHeight() {
         Random random = new Random();
-        int Miny = ModConfig.general_config.Min_Y;
-        int MaxY = ModConfig.general_config.Max_Y;
-        return random.nextInt(MaxY - Miny) + Miny;
+        int minY = ATFMD.CONFIG.stuff.Min_Y;
+        int maxY = ATFMD.CONFIG.stuff.Max_Y;
+        return random.nextInt(maxY - minY) + minY;
     }
     @Override
     protected boolean shouldStartAt(ChunkGenerator chunkGenerator, BiomeSource biomeSource, long seed, ChunkRandom chunkRandom, ChunkPos chunkPos, Biome biome, ChunkPos chunkPos2, DefaultFeatureConfig featureConfig, HeightLimitView heightLimitView) {

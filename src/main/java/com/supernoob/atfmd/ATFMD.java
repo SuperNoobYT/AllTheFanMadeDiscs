@@ -5,7 +5,6 @@ import com.supernoob.atfmd.registry.ModItems;
 import com.supernoob.atfmd.registry.ModLootTables;
 import com.supernoob.atfmd.registry.ModSounds;
 import com.supernoob.atfmd.registry.ModStructures;
-import com.terraformersmc.modmenu.util.mod.Mod;
 import me.shedaniel.autoconfig.AutoConfig;
 import me.shedaniel.autoconfig.serializer.Toml4jConfigSerializer;
 import net.fabricmc.api.ClientModInitializer;
@@ -22,6 +21,8 @@ public class ATFMD implements ModInitializer, DedicatedServerModInitializer, Cli
 
     public static final String MOD_ID = "all_the_fan_made_discs";
     public static final Logger LOGGER = LogManager.getLogger();
+
+    public static ModConfig CONFIG;
 
     public static final ItemGroup ATFMD_TAB = FabricItemGroupBuilder.create(
                     new Identifier(MOD_ID, "atfmd_tab"))
@@ -110,12 +111,11 @@ public class ATFMD implements ModInitializer, DedicatedServerModInitializer, Cli
 
     @Override
     public void onInitialize() {
-        AutoConfig.register(ModConfig.class, Toml4jConfigSerializer::new);
-        ModConfig config = AutoConfig.getConfigHolder(ModConfig.class).getConfig();
         ModStructures.init();
         ModItems.init();
         ModSounds.init();
         ModLootTables.init();
+        ModConfig.init();
     }
 
     @Override
