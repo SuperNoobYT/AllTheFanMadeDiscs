@@ -1,6 +1,7 @@
 package com.supernoob.atfmd.object.Structures;
 
 import com.supernoob.atfmd.ATFMD;
+import com.supernoob.atfmd.config.ModConfig;
 import com.supernoob.atfmd.object.StructuresFeatures.BedrockDiscStructure;
 import net.fabricmc.fabric.api.structure.v1.FabricStructureBuilder;
 import net.minecraft.util.Identifier;
@@ -15,16 +16,16 @@ public class ATFMDStructures {
 
     public static void setupAndRegisterStructureFeatures() {
 
-        FabricStructureBuilder.create(new Identifier(ATFMD.MOD_ID, "bedrock_disc"), BEDROCK_DISC_STRUCTURE)
+            FabricStructureBuilder.create(new Identifier(ATFMD.MOD_ID, "bedrock_disc"), BEDROCK_DISC_STRUCTURE)
 
-                .step(GenerationStep.Feature.UNDERGROUND_STRUCTURES)
+                    .step(GenerationStep.Feature.UNDERGROUND_STRUCTURES)
 
-                .defaultConfig(new StructureConfig(
-                        10,
-                        4,
-                        879787145))
+                    .defaultConfig(new StructureConfig(
+                            11,
+                            8,
+                            879787145))
 
-                .superflatFeature(BEDROCK_DISC_STRUCTURE.configure(FeatureConfig.DEFAULT))
-                .register();
+                    .superflatFeature(BEDROCK_DISC_STRUCTURE.configure(FeatureConfig.DEFAULT))
+                    .register();
     }
 }

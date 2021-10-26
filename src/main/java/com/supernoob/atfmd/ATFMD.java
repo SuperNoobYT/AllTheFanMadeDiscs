@@ -1,11 +1,11 @@
 package com.supernoob.atfmd;
 
+import com.supernoob.atfmd.config.ModConfig;
 import com.supernoob.atfmd.registry.ModItems;
 import com.supernoob.atfmd.registry.ModLootTables;
 import com.supernoob.atfmd.registry.ModSounds;
 import com.supernoob.atfmd.registry.ModStructures;
 import me.shedaniel.autoconfig.AutoConfig;
-import me.shedaniel.autoconfig.serializer.PartitioningSerializer;
 import me.shedaniel.autoconfig.serializer.Toml4jConfigSerializer;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.api.DedicatedServerModInitializer;
@@ -113,7 +113,8 @@ public class ATFMD implements ModInitializer, DedicatedServerModInitializer, Cli
         ModItems.init();
         ModSounds.init();
         ModLootTables.init();
-        AutoConfig.register(ModConfig.class, PartitioningSerializer.wrap(Toml4jConfigSerializer::new));
+        AutoConfig.register(ModConfig.class, Toml4jConfigSerializer::new);
+        ModConfig config = AutoConfig.getConfigHolder(ModConfig.class).getConfig();
     }
 
     @Override

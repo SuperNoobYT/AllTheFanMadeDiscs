@@ -1,6 +1,7 @@
   package com.supernoob.atfmd.registry;
 
   import com.supernoob.atfmd.ATFMD;
+  import com.supernoob.atfmd.config.ModConfig;
   import com.supernoob.atfmd.mixin.StructuresConfigAccessor;
   import com.supernoob.atfmd.object.Structures.ATFMDConfiguredStructures;
   import com.supernoob.atfmd.object.Structures.ATFMDStructures;
@@ -34,7 +35,7 @@
           ServerWorldEvents.LOAD.register((MinecraftServer minecraftServer, ServerWorld serverWorld)->{
               Map<StructureFeature<?>, StructureConfig> tempMap = new HashMap<>(serverWorld.getChunkManager().getChunkGenerator().getStructuresConfig().getStructures());
 
-              if(!serverWorld.getRegistryKey().equals(World.OVERWORLD)){
+              if(!serverWorld.getRegistryKey().equals(World.OVERWORLD)||!ModConfig.InnerStuff.SpawnStructure){
                   tempMap.keySet().remove(ATFMDStructures.BEDROCK_DISC_STRUCTURE);
               }
               ((StructuresConfigAccessor)serverWorld.getChunkManager().getChunkGenerator().getStructuresConfig()).setStructures(tempMap);

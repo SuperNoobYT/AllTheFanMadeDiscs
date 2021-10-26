@@ -18,7 +18,7 @@
     "client": ["com.supernoob.atfmd.ATFMD"],
     "server": ["com.supernoob.atfmd.ATFMD"],
     "main":["com.supernoob.atfmd.ATFMD"],
-    "modmenu": ["com.supernoob.atfmd.ModMenuIntegration"]
+    "modmenu": ["com.supernoob.atfmd.config.ModMenuIntegration"]
   },
   "mixins":["atfmd.mixins.json"],
   "depends":
