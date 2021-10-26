@@ -3,7 +3,10 @@ package com.supernoob.atfmd.object.StructuresFeatures;
 import com.mojang.serialization.Codec;
 import com.supernoob.atfmd.ATFMD;
 import com.supernoob.atfmd.config.ModConfig;
+import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
+import net.minecraft.block.Blocks;
+import net.minecraft.block.Material;
 import net.minecraft.structure.MarginedStructureStart;
 import net.minecraft.structure.PoolStructurePiece;
 import net.minecraft.structure.StructureManager;
@@ -38,8 +41,8 @@ public class BedrockDiscStructure extends StructureFeature<DefaultFeatureConfig>
     }
     public static int randomHeight() {
         Random random = new Random();
-        int Miny = ModConfig.InnerStuff.Min_Y;
-        int MaxY = ModConfig.InnerStuff.Max_Y;
+        int Miny = ModConfig.general_config.Min_Y;
+        int MaxY = ModConfig.general_config.Max_Y;
         return random.nextInt(MaxY - Miny) + Miny;
     }
     @Override
@@ -109,7 +112,6 @@ public class BedrockDiscStructure extends StructureFeature<DefaultFeatureConfig>
                             this.children.get(0).getBoundingBox().getMinY() + " " +
                             this.children.get(0).getBoundingBox().getMinZ());
                 }
-
         }
     }
 }

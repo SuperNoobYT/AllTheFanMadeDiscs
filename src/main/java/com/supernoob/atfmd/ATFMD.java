@@ -5,6 +5,7 @@ import com.supernoob.atfmd.registry.ModItems;
 import com.supernoob.atfmd.registry.ModLootTables;
 import com.supernoob.atfmd.registry.ModSounds;
 import com.supernoob.atfmd.registry.ModStructures;
+import com.terraformersmc.modmenu.util.mod.Mod;
 import me.shedaniel.autoconfig.AutoConfig;
 import me.shedaniel.autoconfig.serializer.Toml4jConfigSerializer;
 import net.fabricmc.api.ClientModInitializer;
@@ -109,12 +110,12 @@ public class ATFMD implements ModInitializer, DedicatedServerModInitializer, Cli
 
     @Override
     public void onInitialize() {
+        AutoConfig.register(ModConfig.class, Toml4jConfigSerializer::new);
+        ModConfig config = AutoConfig.getConfigHolder(ModConfig.class).getConfig();
         ModStructures.init();
         ModItems.init();
         ModSounds.init();
         ModLootTables.init();
-        AutoConfig.register(ModConfig.class, Toml4jConfigSerializer::new);
-        ModConfig config = AutoConfig.getConfigHolder(ModConfig.class).getConfig();
     }
 
     @Override
@@ -123,5 +124,7 @@ public class ATFMD implements ModInitializer, DedicatedServerModInitializer, Cli
     }
 
     @Override
-    public void onInitializeClient(){ ModStructures.removeStructureSpawningFromSelectedDimension(); }
+    public void onInitializeClient(){
+        ModStructures.removeStructureSpawningFromSelectedDimension();
+    }
 }

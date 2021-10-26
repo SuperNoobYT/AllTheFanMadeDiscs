@@ -35,7 +35,7 @@
           ServerWorldEvents.LOAD.register((MinecraftServer minecraftServer, ServerWorld serverWorld)->{
               Map<StructureFeature<?>, StructureConfig> tempMap = new HashMap<>(serverWorld.getChunkManager().getChunkGenerator().getStructuresConfig().getStructures());
 
-              if(!serverWorld.getRegistryKey().equals(World.OVERWORLD)||!ModConfig.InnerStuff.SpawnStructure){
+              if(!serverWorld.getRegistryKey().equals(World.OVERWORLD)||!ModConfig.general_config.SpawnStructure){
                   tempMap.keySet().remove(ATFMDStructures.BEDROCK_DISC_STRUCTURE);
               }
               ((StructuresConfigAccessor)serverWorld.getChunkManager().getChunkGenerator().getStructuresConfig()).setStructures(tempMap);
