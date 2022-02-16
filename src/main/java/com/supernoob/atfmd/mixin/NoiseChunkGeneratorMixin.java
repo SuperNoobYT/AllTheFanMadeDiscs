@@ -1,6 +1,7 @@
 package com.supernoob.atfmd.mixin;
 
 import com.supernoob.atfmd.object.Structures.ATFMDStructures;
+import com.supernoob.atfmd.object.StructuresFeatures.BedrockDiscStructure;
 import net.minecraft.entity.SpawnGroup;
 import net.minecraft.util.collection.Pool;
 import net.minecraft.util.math.BlockPos;
@@ -28,17 +29,26 @@ public class NoiseChunkGeneratorMixin {
         if(pool != null) cir.setReturnValue(pool);
     }
 
+    /**
+     * This mixin hooks into NoiseChunkGenerator's getEntitySpawnList which is where vanilla does the
+     * mob spawning in structures over time. We have to check what the spawn group is for the structure
+     * and then see if it is inside the structure. Then we grab the list of mobs from the structure that can spawn.
+     *
+     * This way of doing structure mob spawning will prevent biome's mobs from spawning in the structure.
+     */
     private static Pool<SpawnSettings.SpawnEntry> getStructureSpawns(Biome biome, StructureAccessor accessor, SpawnGroup group, BlockPos pos){
+
         if (group == SpawnGroup.MONSTER) {
-            if (accessor.getStructureAt(pos, true, ATFMDStructures.BEDROCK_DISC_STRUCTURE).hasChildren()) {
-                return ATFMDStructures.BEDROCK_DISC_STRUCTURE.getMonsterSpawns();
+            if (accessor.getStructureAt(pos, ATFMDStructures.BEDROCK_DISC_STRUCTURE).hasChildren()) {
+                return BedrockDiscStructure.STRUCTURE_MONSTERS;
             }
         }
         else if (group == SpawnGroup.CREATURE) {
-            if (accessor.getStructureAt(pos, true, ATFMDStructures.BEDROCK_DISC_STRUCTURE).hasChildren()) {
-                return ATFMDStructures.BEDROCK_DISC_STRUCTURE.getCreatureSpawns();
+            if (accessor.getStructureAt(pos, ATFMDStructures.BEDROCK_DISC_STRUCTURE).hasChildren()) {
+                return BedrockDiscStructure.STRUCTURE_CREATURES;
             }
         }
+
         return null;
     }
 }

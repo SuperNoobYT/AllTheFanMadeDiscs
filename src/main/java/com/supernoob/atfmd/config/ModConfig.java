@@ -17,8 +17,8 @@ public class ModConfig implements ConfigData {
     @Config(name = "Strucutre spawn")
     public class StructureConfig {
 
-        public int Max_Y = 13;
-        public int Min_Y = 6;
+        public int Max_Y = -44;
+        public int Min_Y = -56;
         public boolean SpawnStructure = true;
     }
     public static void init() {

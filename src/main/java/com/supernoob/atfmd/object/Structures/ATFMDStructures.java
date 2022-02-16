@@ -1,18 +1,17 @@
 package com.supernoob.atfmd.object.Structures;
 
-import com.supernoob.atfmd.ATFMD;
-import com.supernoob.atfmd.config.ModConfig;
 import com.supernoob.atfmd.object.StructuresFeatures.BedrockDiscStructure;
+import com.supernoob.atfmd.ATFMD;
 import net.fabricmc.fabric.api.structure.v1.FabricStructureBuilder;
 import net.minecraft.util.Identifier;
 import net.minecraft.world.gen.GenerationStep;
 import net.minecraft.world.gen.chunk.StructureConfig;
-import net.minecraft.world.gen.feature.DefaultFeatureConfig;
-import net.minecraft.world.gen.feature.FeatureConfig;
 import net.minecraft.world.gen.feature.StructureFeature;
+import net.minecraft.world.gen.feature.StructurePoolFeatureConfig;
+
 
 public class ATFMDStructures {
-    public static StructureFeature<DefaultFeatureConfig> BEDROCK_DISC_STRUCTURE = new BedrockDiscStructure(DefaultFeatureConfig.CODEC);
+    public static StructureFeature<StructurePoolFeatureConfig> BEDROCK_DISC_STRUCTURE = new BedrockDiscStructure(StructurePoolFeatureConfig.CODEC);
 
     public static void setupAndRegisterStructureFeatures() {
 
@@ -24,8 +23,6 @@ public class ATFMDStructures {
                             11,
                             8,
                             879787145))
-
-                    .superflatFeature(BEDROCK_DISC_STRUCTURE.configure(FeatureConfig.DEFAULT))
                     .register();
     }
 }
