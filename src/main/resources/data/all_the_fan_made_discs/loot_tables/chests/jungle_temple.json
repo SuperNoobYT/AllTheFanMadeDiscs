@@ -3,18 +3,19 @@
   "pools": [
     {
       "rolls": {
-        "type": "minecraft:uniform"
+        "type": "minecraft:uniform",
+        "max": 1,
+        "min": 1
       },
-      "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 4,
+          "weight": 1,
           "name": "all_the_fan_made_discs:music_disc_into_the_jungle"
         },
         {
           "type": "minecraft:empty",
-          "weight": 96
+          "weight": 20
         }
       ]
     }
