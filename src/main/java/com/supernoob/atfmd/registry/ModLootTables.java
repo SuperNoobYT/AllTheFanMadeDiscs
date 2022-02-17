@@ -14,10 +14,12 @@ public class ModLootTables {
     public static final Identifier BURIED_TRASURE_ID = new Identifier("minecraft", "chests/buried_treasure");
     public static final Identifier END_CITY_LOOTTABLE_ID = new Identifier(ATFMD.MOD_ID, "chests/end_city_treasure");
     public static final Identifier END_CITY_TRASURE_ID = new Identifier("minecraft", "chests/end_city_treasure");
-    public static final Identifier IGLOO_LOOTTABLE_ID = new Identifier(ATFMD.MOD_ID, "chests/igloo_chest");
-    public static final Identifier IGLOO_CHEST_ID = new Identifier("minecraft", "chests/igloo_chest");
     public static final Identifier FORT_STRESS_LOOTTABLE_ID = new Identifier(ATFMD.MOD_ID, "chests/nether_bridge");
     public static final Identifier NETHER_BRIDGE_ID = new Identifier("minecraft", "chests/nether_bridge");
+    public static final Identifier IGLOO_LOOTTABLE_ID = new Identifier(ATFMD.MOD_ID, "chests/igloo_chest");
+    public static final Identifier IGLOO_CHEST_ID = new Identifier("minecraft", "chests/igloo_chest");
+    public static final Identifier JUNGLE_TEMPLE_LOOTTABLE_ID = new Identifier(ATFMD.MOD_ID, "chests/jungle_temple");
+    public static final Identifier JUNGLE_TEMPLE_CHEST_ID = new Identifier("minecraft", "chests/jungle_temple");
     public static final Identifier PILLAGER_LOOTTABLE_ID = new Identifier(ATFMD.MOD_ID, "chests/pillager_outpost");
     public static final Identifier PILLAGER_OUTPOST_ID = new Identifier("minecraft", "chests/pillager_outpost");
     public static final Identifier SHIPWRECK_LOOTTABLE_ID = new Identifier(ATFMD.MOD_ID, "chests/shipwreck_treasure");
@@ -37,6 +39,7 @@ public class ModLootTables {
         LootTable.ModifyLootTable(BURIED_TRASURE_ID, AXOLOTL_LOOTTABLE_ID);
         LootTable.ModifyLootTable(END_CITY_TRASURE_ID, END_CITY_LOOTTABLE_ID);
         LootTable.ModifyLootTable(IGLOO_CHEST_ID, IGLOO_LOOTTABLE_ID);
+        LootTable.ModifyLootTable(JUNGLE_TEMPLE_CHEST_ID, JUNGLE_TEMPLE_LOOTTABLE_ID);
         LootTable.ModifyLootTable(NETHER_BRIDGE_ID, FORT_STRESS_LOOTTABLE_ID);
         LootTable.ModifyLootTable(PILLAGER_OUTPOST_ID, PILLAGER_LOOTTABLE_ID);
         LootTable.ModifyLootTable(SHIPWRECK_TRASURE_ID, SHIPWRECK_LOOTTABLE_ID);
