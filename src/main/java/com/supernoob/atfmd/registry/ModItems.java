@@ -57,6 +57,7 @@ public class ModItems {
     public static final Item OCEAN_DISC = register("music_disc_ocean_disc", ModSounds.SOUND_OCEAN_DISC);
     public static final Item OMEN = register("music_disc_omen", ModSounds.SOUND_OMEN);
     public static final Item ORESTEP = register("music_disc_orestep", ModSounds.SOUND_ORESTEP);
+    public static final Item OTHERSIDE = register("music_disc_otherside", ModSounds.SOUND_OTHERSIDE);
     public static final Item OVER = register("music_disc_over", ModSounds.SOUND_OVER);
     public static final Item OXIDIZATION = register("music_disc_oxidization", ModSounds.SOUND_OXIDIZATION);
     public static final Item PETIOLE = register("music_disc_petiole", ModSounds.SOUND_PETIOLE);

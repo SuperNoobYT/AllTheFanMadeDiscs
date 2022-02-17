@@ -422,6 +422,15 @@
       }
     ]
   },
+  "otherside": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "all_the_fan_made_discs:otherside",
+        "stream": true
+      }
+    ]
+  },
   "over": {
     "category": "record",
     "sounds": [

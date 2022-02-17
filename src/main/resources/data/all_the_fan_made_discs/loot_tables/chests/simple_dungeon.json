@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 2.0,
+        "max": 3.0
+      },
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "all_the_fan_made_discs:music_disc_otherside"
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 127
+        }
+      ]
+    }
+  ]
+}

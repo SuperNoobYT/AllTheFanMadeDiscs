@@ -22,6 +22,10 @@ public class ModLootTables {
     public static final Identifier PILLAGER_OUTPOST_ID = new Identifier("minecraft", "chests/pillager_outpost");
     public static final Identifier SHIPWRECK_LOOTTABLE_ID = new Identifier(ATFMD.MOD_ID, "chests/shipwreck_treasure");
     public static final Identifier SHIPWRECK_TRASURE_ID = new Identifier("minecraft", "chests/shipwreck_treasure");
+    public static final Identifier SIMPLE_DUNGEON_LOOTTABLE_ID = new Identifier(ATFMD.MOD_ID, "chests/simple_dungeon");
+    public static final Identifier SIMPLE_DUNGEON_ID = new Identifier("minecraft", "chests/simple_dungeon");
+    public static final Identifier STRONGHOLD_CORRIDOR_LOOTTABLE_ID = new Identifier(ATFMD.MOD_ID, "chests/stronghold_corridor");
+    public static final Identifier STRONGHOLD_CORRIDOR_ID = new Identifier("minecraft", "chests/stronghold_corridor");
     public static final Identifier UNDERWATER_RUIN_LOOTTABLE_ID = new Identifier(ATFMD.MOD_ID, "chests/underwater_ruin_big");
     public static final Identifier UNDERWATER_RUIN_BIG_ID = new Identifier("minecraft", "chests/underwater_ruin_big");
     public static final Identifier MANSION_LOOTTABLE_ID = new Identifier(ATFMD.MOD_ID, "chests/woodland_mansion");
@@ -40,6 +44,8 @@ public class ModLootTables {
         LootTable.ModifyLootTable(NETHER_BRIDGE_ID, FORT_STRESS_LOOTTABLE_ID);
         LootTable.ModifyLootTable(PILLAGER_OUTPOST_ID, PILLAGER_LOOTTABLE_ID);
         LootTable.ModifyLootTable(SHIPWRECK_TRASURE_ID, SHIPWRECK_LOOTTABLE_ID);
+        LootTable.ModifyLootTable(SIMPLE_DUNGEON_ID, SIMPLE_DUNGEON_LOOTTABLE_ID);
+        LootTable.ModifyLootTable(STRONGHOLD_CORRIDOR_ID, STRONGHOLD_CORRIDOR_LOOTTABLE_ID);
         LootTable.ModifyLootTable(UNDERWATER_RUIN_BIG_ID, UNDERWATER_RUIN_LOOTTABLE_ID);
         LootTable.ModifyLootTable(WOODLAND_MANSION_ID, MANSION_LOOTTABLE_ID);
         LootTable.ModifyLootTable(ENDER_DRAGON_ID, ENDERWAVE_LOOTTABLE_ID);

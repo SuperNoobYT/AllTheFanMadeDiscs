@@ -54,6 +54,7 @@ public class ModSounds {
     public static final SoundEvent SOUND_OCEAN_DISC = register("ocean_disc");
     public static final SoundEvent SOUND_OMEN = register("omen");
     public static final SoundEvent SOUND_ORESTEP = register("orestep");
+    public static final SoundEvent SOUND_OTHERSIDE = register("otherside");
     public static final SoundEvent SOUND_OVER = register("over");
     public static final SoundEvent SOUND_OXIDIZATION = register("oxidization");
     public static final SoundEvent SOUND_PETIOLE = register("petiole");
