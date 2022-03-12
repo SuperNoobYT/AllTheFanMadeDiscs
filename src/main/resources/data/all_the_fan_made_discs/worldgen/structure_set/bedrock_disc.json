@@ -1,0 +1,17 @@
+{
+  "structures": [
+    {
+      "structure": "all_the_fan_made_discs:bedrock_disc",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 879787145,
+
+    "spacing": 11,
+
+    "separation": 8,
+
+    "type": "minecraft:random_spread"
+  }
+}

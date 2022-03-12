@@ -1,12 +1,10 @@
 package com.supernoob.atfmd;
 
 import com.supernoob.atfmd.config.ModConfig;
+import com.supernoob.atfmd.object.ATFMDStructures;
 import com.supernoob.atfmd.registry.ModItems;
 import com.supernoob.atfmd.registry.ModLootTables;
 import com.supernoob.atfmd.registry.ModSounds;
-import com.supernoob.atfmd.registry.ModStructures;
-import net.fabricmc.api.ClientModInitializer;
-import net.fabricmc.api.DedicatedServerModInitializer;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
 import net.minecraft.item.ItemGroup;
@@ -15,7 +13,7 @@ import net.minecraft.util.Identifier;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-public class ATFMD implements ModInitializer, DedicatedServerModInitializer, ClientModInitializer {
+public class ATFMD implements ModInitializer {
 
     public static final String MOD_ID = "all_the_fan_made_discs";
     public static final Logger LOGGER = LogManager.getLogger();
@@ -109,20 +107,11 @@ public class ATFMD implements ModInitializer, DedicatedServerModInitializer, Cli
 
     @Override
     public void onInitialize() {
-        ModStructures.init();
+        ATFMDStructures.registerStructureFeatures();
         ModItems.init();
         ModSounds.init();
         ModLootTables.init();
         ModConfig.init();
     }
-
-    @Override
-    public void onInitializeServer() {
-        ModStructures.addStructureSpawningToDimensionsAndBiomes();
-    }
-
-    @Override
-    public void onInitializeClient(){
-        ModStructures.addStructureSpawningToDimensionsAndBiomes();
-    }
 }
+
