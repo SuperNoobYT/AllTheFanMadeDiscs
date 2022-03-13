@@ -10,6 +10,6 @@ import net.minecraft.world.gen.feature.StructureFeature;
         public static StructureFeature<?> BEDROCK_DISC = new BedrockDiscStructure();
 
         public static void registerStructureFeatures() {
-            StructureFeatureAccessor.callRegister(ATFMD.MOD_ID + ":underground_structures", BEDROCK_DISC, GenerationStep.Feature.UNDERGROUND_STRUCTURES);
+            StructureFeatureAccessor.callRegister(ATFMD.MOD_ID + ":bedrock_disc", BEDROCK_DISC, GenerationStep.Feature.UNDERGROUND_STRUCTURES);
         }
     }
