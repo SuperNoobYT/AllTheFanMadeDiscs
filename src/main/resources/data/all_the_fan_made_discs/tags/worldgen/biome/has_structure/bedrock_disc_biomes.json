@@ -6,12 +6,16 @@
     "#minecraft:is_jungle",
     "#minecraft:is_forest",
     "#minecraft:is_taiga",
+    "#minecraft:is_ocean",
+    "#minecraft:is_deep_ocean",
+    "#minecraft:is_mountain",
     "minecraft:desert",
     "minecraft:plains",
     "minecraft:snowy_plains",
     "minecraft:sunflower_plains",
     "minecraft:savanna",
     "minecraft:savanna_plateau",
-    "minecraft:windswept_savanna"
+    "minecraft:windswept_savanna",
+    "minecraft:swamp"
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "name": "all_the_fan_made_discs:bedrock_disc/start_pool",
+  "name": "all_the_fan_made_discs:start_pool",
   "fallback": "minecraft:empty",
   "elements": [
     {
