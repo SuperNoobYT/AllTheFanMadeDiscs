@@ -25,14 +25,14 @@ public class BedrockDiscStructure extends StructureFeature<StructurePoolFeatureC
         int x = spawnXZPosition.getX();
         int z = spawnXZPosition.getZ();
         VerticalBlockSample columnOfBlocks = context.chunkGenerator().getColumnSample(x, z, context.world());
-        while (y<=ATFMD.CONFIG.stuff.Max_Y) {
+        while (y <= ATFMD.CONFIG.stuff.Max_Y) {
             y++;
             BlockState areablock = columnOfBlocks.getState(y);
             if (areablock.getBlock() == Blocks.AIR) {
                 break;
             }
         }
-        if (y>ATFMD.CONFIG.stuff.Max_Y) {
+        if (y > ATFMD.CONFIG.stuff.Max_Y) {
             return Optional.empty();
         }
         BlockPos blockpos = context.chunkPos().getCenterAtY(0);
@@ -48,7 +48,7 @@ public class BedrockDiscStructure extends StructureFeature<StructurePoolFeatureC
                         false // Place at heightmap (top land). Set this to false for structure to be place at the passed in blockpos's Y value instead.
                         // Definitely keep this false when placing structures in the nether as otherwise, heightmap placing will put the structure on the Bedrock roof.
                 );
-        if(structurePiecesGenerator.isPresent()) {
+        if (structurePiecesGenerator.isPresent()) {
             ATFMD.LOGGER.log(Level.DEBUG, "Bedrock disc", blockpos);
         }
         return structurePiecesGenerator;

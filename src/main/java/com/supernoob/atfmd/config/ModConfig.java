@@ -19,7 +19,6 @@ public class ModConfig implements ConfigData {
 
         public int Max_Y = -44;
         public int Min_Y = -56;
-        public boolean SpawnStructure = true;
     }
     public static void init() {
         AutoConfig.register(ModConfig.class, Toml4jConfigSerializer::new);
