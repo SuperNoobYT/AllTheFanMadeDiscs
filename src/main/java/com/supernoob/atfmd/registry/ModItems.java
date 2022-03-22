@@ -59,7 +59,6 @@ public class ModItems {
     public static final Item ORESTEP = register("music_disc_orestep", ModSounds.SOUND_ORESTEP);
     public static final Item OVER = register("music_disc_over", ModSounds.SOUND_OVER);
     public static final Item OXIDIZATION = register("music_disc_oxidization", ModSounds.SOUND_OXIDIZATION);
-    public static final Item PETIOLE = register("music_disc_petiole", ModSounds.SOUND_PETIOLE);
     public static final Item PHANTOM = register("music_disc_phantom", ModSounds.SOUND_PHANTOM);
     public static final Item PILLAGED = register("music_disc_pillaged", ModSounds.SOUND_PILLAGED);
     public static final Item PRISM = register("music_disc_prism", ModSounds.SOUND_PRISM);

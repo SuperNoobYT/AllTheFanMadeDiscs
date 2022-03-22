@@ -440,15 +440,6 @@
       }
     ]
   },
-  "petiole": {
-    "category": "record",
-    "sounds": [
-      {
-        "name": "all_the_fan_made_discs:petiole",
-        "stream": true
-      }
-    ]
-  },
   "phantom": {
     "category": "record",
     "sounds": [
