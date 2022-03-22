@@ -78,7 +78,6 @@ public class ATFMD implements ModInitializer, DedicatedServerModInitializer, Cli
                 stacks.add(new ItemStack(ModItems.ORESTEP));
                 stacks.add(new ItemStack(ModItems.OTHERSIDE));
                 stacks.add(new ItemStack(ModItems.OXIDIZATION));
-                stacks.add(new ItemStack(ModItems.PETIOLE));
                 stacks.add(new ItemStack(ModItems.PHANTOM));
                 stacks.add(new ItemStack(ModItems.PILLAGED));
                 stacks.add(new ItemStack(ModItems.PRISM));
