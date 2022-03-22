@@ -27,7 +27,7 @@ public class ModLootTables {
     public static final Identifier UNDERWATER_RUIN_LOOTTABLE_ID = new Identifier(ATFMD.MOD_ID, "chests/underwater_ruin_big");
     public static final Identifier UNDERWATER_RUIN_BIG_ID = new Identifier("minecraft", "chests/underwater_ruin_big");
     public static final Identifier MANSION_LOOTTABLE_ID = new Identifier(ATFMD.MOD_ID, "chests/woodland_mansion");
-    public static final Identifier WOODLAND_MANSION_ID = new Identifier("minecraft", "chests/woodlandmansion");
+    public static final Identifier WOODLAND_MANSION_ID = new Identifier("minecraft", "chests/woodland_mansion");
     public static final Identifier ENDERWAVE_LOOTTABLE_ID = new Identifier(ATFMD.MOD_ID, "entities/ender_dragon");
     public static final Identifier ENDER_DRAGON_ID = new Identifier("minecraft", "entities/ender_dragon");
     public static final Identifier FINALE_LOOTTABLE_ID = new Identifier(ATFMD.MOD_ID, "entities/wither");
