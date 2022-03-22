@@ -1,5 +1,4 @@
 {
-  "type": "minecraft:chest",
   "pools": [
     {
       "rolls": {
@@ -7,20 +6,6 @@
         "max": 3
       },
       "entries": [
-        {
-          "type": "minecraft:item",
-          "weight": 12,
-          "name": "minecraft:deepslate",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 3,
-                "max": 15
-              }
-            }
-          ]
-        },
         {
           "type": "minecraft:item",
           "weight": 8,
@@ -37,23 +22,22 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 5,
-          "name": "all_the_fan_made_discs:music_disc_bedrock"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 2,
-          "name": "minecraft:diamond"
+          "weight": 12,
+          "name": "minecraft:deepslate",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3,
+                "max": 15
+              }
+            }
+          ]
         }
       ]
-    }
-  ]
-  "pools": [
+    },
     {
-      "rolls": {
-        "min": 1,
-        "max": 1
-      },
+      "rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
@@ -64,10 +48,10 @@
           "type": "minecraft:item",
           "weight": 3,
           "name": "minecraft:diamond"
-        }
-	{
+        },
+        {
           "type": "minecraft:empty",
-          "weight": 3,
+          "weight": 3
         }
       ]
     }
