@@ -29,7 +29,7 @@ public class ModSounds {
     public static final SoundEvent SOUND_CORAL_LULLABY = register("coral_lullaby");
     public static final SoundEvent SOUND_CRADLE = register("cradle");
     public static final SoundEvent SOUND_DEEP = register("deep");
-    public static final SoundEvent SOUND_DEEPSLATE = register("deepslate");
+    public static final SoundEvent SOUND_DEEPSTATE = register("deepsTate");
     public static final SoundEvent SOUND_DESCENT = register("descent");
     public static final SoundEvent SOUND_DRIFTER = register("drifter");
     public static final SoundEvent SOUND_ENDERWAVE = register("enderwave");
