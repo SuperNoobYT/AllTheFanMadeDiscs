@@ -50,7 +50,7 @@ public class ATFMD implements ModInitializer, DedicatedServerModInitializer, Cli
                 stacks.add(new ItemStack(ModItems.CORAL_LULLABY));
                 stacks.add(new ItemStack(ModItems.CRADLE));
                 stacks.add(new ItemStack(ModItems.DEEP));
-                stacks.add(new ItemStack(ModItems.DEEPSLATE));
+                stacks.add(new ItemStack(ModItems.DEEPSTATE));
                 stacks.add(new ItemStack(ModItems.DESCENT));
                 stacks.add(new ItemStack(ModItems.DRIFTER));
                 stacks.add(new ItemStack(ModItems.ENDERWAVE));
