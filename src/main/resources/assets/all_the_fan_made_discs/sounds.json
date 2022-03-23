@@ -206,6 +206,15 @@
       }
     ]
   },
+  "descent": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "all_the_fan_made_discs:descent",
+        "stream": true
+      }
+    ]
+  },
   "drifter": {
     "category": "record",
     "sounds": [

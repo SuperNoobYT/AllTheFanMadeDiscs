@@ -33,6 +33,7 @@ public class ModItems {
     public static final Item CRADLE = register("music_disc_cradle", ModSounds.SOUND_CRADLE);
     public static final Item DEEP = register("music_disc_deep", ModSounds.SOUND_DEEP);
     public static final Item DEEPSLATE = register("music_disc_deepslate", ModSounds.SOUND_DEEPSLATE);
+    public static final Item DESCENT = register("music_disc_deepslate", ModSounds.SOUND_DESCENT);
     public static final Item DRIFTER = register("music_disc_drifter", ModSounds.SOUND_DRIFTER);
     public static final Item ENDERWAVE = register("music_disc_enderwave", ModSounds.SOUND_ENDERWAVE);
     public static final Item ETHERAL = register("music_disc_etheral", ModSounds.SOUND_ETHERAL);
