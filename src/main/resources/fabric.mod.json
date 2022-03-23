@@ -23,21 +23,27 @@
   "mixins":["atfmd.mixins.json"],
   "depends":
   {
+    "cloth-config": ">=5.0.34",
     "fabricloader":">=0.11.3",
     "fabric":">=0.34.9",
     "minecraft":">=1.17",
     "java":">=17"
   },
   "suggests":{},
-  "custom":{"modupdater":{
-    "strategy":"curseforge",
-    "projectID":513686,
-    "strict":false},
+  "custom":{
+    "modupdater":
+      {
+      "strategy":"curseforge",
+      "projectID":513686,
+      "strict":false
+      },
     "modmenu":
-    {"links":
-    {
-      "Supernoob's channel":"https://www.youtube.com/c/SupernoobMC", "yomikester238's channel":"https://www.youtube.com/c/yomikester238"
-    }
+      {
+      "links":
+        {
+          "Supernoob's channel":"https://www.youtube.com/c/SupernoobMC",
+          "yomikester238's channel":"https://www.youtube.com/c/yomikester238"
+        }
     }
   }
 }
