@@ -1,15 +1,15 @@
 package com.supernoob.atfmd.object;
 
 import com.supernoob.atfmd.ATFMD;
-import com.supernoob.atfmd.mixin.StructureFeatureAccessor;
 import com.supernoob.atfmd.object.StructuresFeatures.BedrockDiscStructure;
-import net.minecraft.world.gen.GenerationStep;
-import net.minecraft.world.gen.feature.StructureFeature;
+import net.minecraft.util.Identifier;
+import net.minecraft.util.registry.Registry;
+import net.minecraft.world.gen.structure.StructureType;
     public class ATFMDStructures {
 
-        public static StructureFeature<?> BEDROCK_DISC = new BedrockDiscStructure();
+        public static StructureType<BedrockDiscStructure> BEDROCK_DISC;
 
         public static void registerStructureFeatures() {
-            StructureFeatureAccessor.callRegister(ATFMD.MOD_ID + ":bedrock_disc", BEDROCK_DISC, GenerationStep.Feature.UNDERGROUND_STRUCTURES);
+            BEDROCK_DISC = Registry.register(Registry.STRUCTURE_TYPE, new Identifier(ATFMD.MOD_ID, "sky_structures"), () -> BedrockDiscStructure.CODEC);
         }
     }
