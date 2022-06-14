@@ -10,6 +10,6 @@ import net.minecraft.world.gen.structure.StructureType;
         public static StructureType<BedrockDiscStructure> BEDROCK_DISC;
 
         public static void registerStructureFeatures() {
-            BEDROCK_DISC = Registry.register(Registry.STRUCTURE_TYPE, new Identifier(ATFMD.MOD_ID, "sky_structures"), () -> BedrockDiscStructure.CODEC);
+            BEDROCK_DISC = Registry.register(Registry.STRUCTURE_TYPE, new Identifier(ATFMD.MOD_ID, "bedrock_disc_structures"), () -> BedrockDiscStructure.CODEC);
         }
     }

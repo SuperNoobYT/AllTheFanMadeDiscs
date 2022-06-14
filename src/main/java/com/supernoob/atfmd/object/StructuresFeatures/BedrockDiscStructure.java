@@ -15,6 +15,7 @@ import net.minecraft.util.registry.RegistryEntry;
 import net.minecraft.world.HeightLimitView;
 import net.minecraft.world.Heightmap;
 import net.minecraft.world.World;
+import net.minecraft.world.gen.HeightContext;
 import net.minecraft.world.gen.chunk.VerticalBlockSample;
 import net.minecraft.world.gen.heightprovider.HeightProvider;
 import net.minecraft.world.gen.noise.NoiseConfig;
@@ -72,7 +73,6 @@ public class BedrockDiscStructure extends Structure {
                 context.world(),
                 context.noiseConfig()) < 150;
     }
-
     @Override
     public Optional<Structure.StructurePosition> getStructurePosition(Structure.Context context) {
         int y = ATFMD.CONFIG.stuff.Min_Y;
@@ -80,6 +80,7 @@ public class BedrockDiscStructure extends Structure {
         int x = spawnXZPosition.getX();
         int z = spawnXZPosition.getZ();
         VerticalBlockSample columnOfBlocks = context.chunkGenerator().getColumnSample(x,z,HeightLimitView.create(-64,256),context.noiseConfig());
+
         while (y <= ATFMD.CONFIG.stuff.Max_Y) {
             y++;
             BlockState areablock = columnOfBlocks.getState(y);
