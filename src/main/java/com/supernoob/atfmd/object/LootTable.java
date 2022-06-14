@@ -1,6 +1,5 @@
 package com.supernoob.atfmd.object;
 
-import net.fabricmc.fabric.api.loot.v2.FabricLootPoolBuilder;
 import net.fabricmc.fabric.api.loot.v2.LootTableEvents;
 import net.minecraft.loot.LootPool;
 import net.minecraft.loot.entry.LootTableEntry;
@@ -12,10 +11,10 @@ public class LootTable {
     public static void ModifyLootTable(Identifier baseloottable, Identifier addedloottable) {
         LootTableEvents.MODIFY.register((resourceManager, manager, id, supplier, setter) -> {
             if (baseloottable.equals(id)) {
-                FabricLootPoolBuilder poolBuilder = FabricLootPoolBuilder.copyOf(LootPool.builder().build())
+                LootPool.Builder poolBuilder = new LootPool.Builder()
                         .rolls(ConstantLootNumberProvider.create(1))
                         .with(LootTableEntry.builder(addedloottable));
-                supplier.build();
+                supplier.pool(poolBuilder.build());
             }
         });
     }
