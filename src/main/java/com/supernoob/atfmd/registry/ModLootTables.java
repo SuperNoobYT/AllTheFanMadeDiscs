@@ -8,6 +8,8 @@ public class ModLootTables {
 
     public static final Identifier ABANDONED_MINESHAFT_ID = new Identifier("minecraft", "chests/abandoned_mineshaft");
     public static final Identifier STRING_LOOTTABLE_ID = new Identifier(ATFMD.MOD_ID, "chests/abandoned_mineshaft");
+    public static final Identifier ANCIENT_CITY_ID = new Identifier("minecraft", "chests/ancient_city");
+    public static final Identifier DESCENT_LOOTTABLE_ID = new Identifier(ATFMD.MOD_ID, "chests/ancient_city");
     public static final Identifier REMNANT_LOOTTABLE_ID = new Identifier(ATFMD.MOD_ID, "chests/bastion_treasure");
     public static final Identifier BASTION_TRASURE_ID = new Identifier("minecraft", "chests/bastion_treasure");
     public static final Identifier AXOLOTL_LOOTTABLE_ID = new Identifier(ATFMD.MOD_ID, "chests/buried_treasure");
@@ -35,6 +37,7 @@ public class ModLootTables {
 
     public static void init() {
         LootTable.ModifyLootTable(ABANDONED_MINESHAFT_ID, STRING_LOOTTABLE_ID);
+        LootTable.ModifyLootTable(ANCIENT_CITY_ID, DESCENT_LOOTTABLE_ID);
         LootTable.ModifyLootTable(BASTION_TRASURE_ID, REMNANT_LOOTTABLE_ID);
         LootTable.ModifyLootTable(BURIED_TRASURE_ID, AXOLOTL_LOOTTABLE_ID);
         LootTable.ModifyLootTable(END_CITY_TRASURE_ID, END_CITY_LOOTTABLE_ID);

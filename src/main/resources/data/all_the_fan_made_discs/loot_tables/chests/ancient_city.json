@@ -1,0 +1,18 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 15
+        },
+        {
+          "type": "item",
+          "name": "all_the_fan_made_discs:music_disc_descent",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}
