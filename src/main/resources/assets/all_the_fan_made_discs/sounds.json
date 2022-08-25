@@ -98,6 +98,15 @@
       }
     ]
   },
+"brightside": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "all_the_fan_made_discs:brightside",
+        "stream": true
+      }
+    ]
+  },
   "carrot": {
     "category": "record",
     "sounds": [

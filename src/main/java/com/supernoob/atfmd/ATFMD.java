@@ -35,6 +35,7 @@ public class ATFMD implements ModInitializer {
                 stacks.add(new ItemStack(ModItems.BIRCH_BOP));
                 stacks.add(new ItemStack(ModItems.BRAIN_SPLOSHED));
                 stacks.add(new ItemStack(ModItems.BRICKS));
+                stacks.add(new ItemStack(ModItems.BRIGHTSIDE));
                 stacks.add(new ItemStack(ModItems.CARROT));
                 stacks.add(new ItemStack(ModItems.CHAOS));
                 stacks.add(new ItemStack(ModItems.CHARR));
