@@ -1,1 +1,21 @@
-{"type":"chest","pools":[{"rolls":1.0,"entries":[{"type":"empty","weight":3},{"type":"item","weight":1,"name":"all_the_fan_made_discs:music_disc_axolotl"}]}]}
+{
+  "type":"chest",
+  "pools":
+  [
+    {
+      "rolls":1.0,
+      "entries":
+      [
+        {
+          "type":"empty",
+          "weight":3
+        },
+        {
+          "type":"item",
+          "weight":1,
+          "name":"all_the_fan_made_discs:music_disc_axolotl"
+        }
+      ]
+    }
+  ]
+}
