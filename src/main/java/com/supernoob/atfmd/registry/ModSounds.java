@@ -18,6 +18,7 @@ public class ModSounds {
     public static final SoundEvent SOUND_BIRCH_BOP = register("birch_bop");
     public static final SoundEvent SOUND_BRAIN_SPLOSHED = register("brain_sploshed");
     public static final SoundEvent SOUND_BRICKS = register("bricks");
+    public static final SoundEvent SOUND_BRIGHTSIDE = register("brightside");
     public static final SoundEvent SOUND_CARROT = register("carrot");
     public static final SoundEvent SOUND_CHAOS = register("chaos");
     public static final SoundEvent SOUND_CHARR = register("charr");

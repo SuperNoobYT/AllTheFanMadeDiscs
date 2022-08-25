@@ -21,6 +21,7 @@ public class ModItems {
     public static final Item BIRCH_BOP = register("music_disc_birch_bop", ModSounds.SOUND_BIRCH_BOP);
     public static final Item BRAIN_SPLOSHED = register("music_disc_brain_sploshed", ModSounds.SOUND_BRAIN_SPLOSHED);
     public static final Item BRICKS = register("music_disc_bricks", ModSounds.SOUND_BRICKS);
+    public static final Item BRIGHTSIDE = register("music_disc_brightside", ModSounds.SOUND_BRIGHTSIDE);
     public static final Item CARROT = register("music_disc_carrot", ModSounds.SOUND_CARROT);
     public static final Item CHAOS = register("music_disc_chaos", ModSounds.SOUND_CHAOS);
     public static final Item CHARR = register("music_disc_charr", ModSounds.SOUND_CHARR);
