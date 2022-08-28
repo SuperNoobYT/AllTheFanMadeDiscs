@@ -73,6 +73,7 @@ public class ModSounds {
     public static final SoundEvent SOUND_STORM = register("storm");
     public static final SoundEvent SOUND_STRING = register("string");
     public static final SoundEvent SOUND_TALL = register("tall");
+    public static final SoundEvent SOUND_THE_LOST_SOUL = register("the_lost_soul");
     public static final SoundEvent SOUND_TIME = register("time");
     public static final SoundEvent SOUND_TRICKS = register("tricks");
     public static final SoundEvent SOUND_TROUBLE_IN_THE_MANSION = register("trouble_in_the_mansion");

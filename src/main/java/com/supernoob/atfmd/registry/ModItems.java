@@ -76,6 +76,7 @@ public class ModItems {
     public static final Item STORM = register("music_disc_storm", ModSounds.SOUND_STORM);
     public static final Item STRING = register("music_disc_string", ModSounds.SOUND_STRING);
     public static final Item TALL = register("music_disc_tall", ModSounds.SOUND_TALL);
+    public static final Item THE_LOST_SOUL = register("music_disc_the_lost_soul", ModSounds.SOUND_THE_LOST_SOUL);
     public static final Item TIME = register("music_disc_time", ModSounds.SOUND_TIME);
     public static final Item TRICKS = register("music_disc_tricks", ModSounds.SOUND_TRICKS);
     public static final Item TROUBLE_IN_THE_MANSION = register("music_disc_trouble_in_the_mansion", ModSounds.SOUND_TROUBLE_IN_THE_MANSION);
