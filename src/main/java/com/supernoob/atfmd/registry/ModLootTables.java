@@ -40,6 +40,10 @@ public class ModLootTables {
     public static final Identifier ZOMBIE_ID = new Identifier("minecraft", "entities/zombie");
     public static final Identifier PRISMARINE_LOOTTABLE_ID = new Identifier(ATFMD.MOD_ID, "entities/elder_guardian");
     public static final Identifier ELDER_GUARDIAN_ID = new Identifier("minecraft", "entities/elder_guardian");
+    public static final Identifier TRICKS_LOOTTABLE_ID = new Identifier(ATFMD.MOD_ID, "entities/witch");
+    public static final Identifier WITCH_ID = new Identifier("minecraft", "entities/witch");
+    public static final Identifier VIBRATE_LOOTTABLE_ID = new Identifier(ATFMD.MOD_ID, "entities/warden");
+    public static final Identifier WARDEN_ID = new Identifier("minecraft", "entities/warden");
 
     public static void init() {
         LootTable.ModifyLootTable(ABANDONED_MINESHAFT_ID, STRING_LOOTTABLE_ID);
@@ -59,5 +63,7 @@ public class ModLootTables {
         LootTable.ModifyLootTable(WITHER_ID, FINALE_LOOTTABLE_ID);
         LootTable.ModifyLootTable(ZOMBIE_ID, FOURTEEN_REVAMP_LOOTTABLE_ID);
         LootTable.ModifyLootTable(ELDER_GUARDIAN_ID, PRISMARINE_LOOTTABLE_ID);
+        LootTable.ModifyLootTable(WITCH_ID, TRICKS_LOOTTABLE_ID);
+        LootTable.ModifyLootTable(WARDEN_ID, VIBRATE_LOOTTABLE_ID);
     }
 }

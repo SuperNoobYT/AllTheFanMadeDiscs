@@ -1,0 +1,15 @@
+{
+  "name": "all_the_fan_made_discs:death_dungeon/wall_pool",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "all_the_fan_made_discs:death_dungeon_wall",
+        "processors": "all_the_fan_made_discs:random_mossy_cobblestone",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

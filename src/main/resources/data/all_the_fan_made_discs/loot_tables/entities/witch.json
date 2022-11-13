@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "all_the_fan_made_discs:music_disc_tricks",
+          "conditions": [
+            {
+              "condition": "minecraft:damage_source_properties",
+              "predicate": {
+                "source_entity": {
+                  "type": "#minecraft:skeletons"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

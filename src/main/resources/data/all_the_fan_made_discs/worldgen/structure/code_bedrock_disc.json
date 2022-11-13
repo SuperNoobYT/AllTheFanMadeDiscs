@@ -5,6 +5,7 @@
   "max_distance_from_center": 64,
   "biomes": "#all_the_fan_made_discs:has_structure/bedrock_disc_biomes",
   "step": "surface_structures",
+  "terrain_adaptation": "none",
   "start_height": {
     "absolute": -64
   },

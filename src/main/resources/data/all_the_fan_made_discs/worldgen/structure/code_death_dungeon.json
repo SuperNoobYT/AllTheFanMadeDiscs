@@ -1,0 +1,21 @@
+{
+  "type": "all_the_fan_made_discs:death_dungeon_structures",
+  "start_pool": "all_the_fan_made_discs:death_dungeon/start_pool",
+  "size": 2,
+  "max_distance_from_center": 80,
+  "step": "underground_structures",
+  "terrain_adaptation": "none",
+  "biomes": "#all_the_fan_made_discs:has_structure/bedrock_disc_biomes",
+  "start_height": {
+    "type": "minecraft:biased_to_bottom",
+    "max_inclusive": {
+      "absolute": 120
+    },
+    "min_inclusive": {
+      "absolute": -58
+    }
+  },
+  "project_start_to_heightmap": "UNDERGROUND_STRUCTURES",
+  "use_expansion_hack": false,
+  "spawn_overrides": {}
+}
