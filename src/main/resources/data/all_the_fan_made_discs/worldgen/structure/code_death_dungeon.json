@@ -1,5 +1,5 @@
 {
-  "type": "all_the_fan_made_discs:death_dungeon_structures",
+  "type": "minecraft:jigsaw",
   "start_pool": "all_the_fan_made_discs:death_dungeon/start_pool",
   "size": 2,
   "max_distance_from_center": 80,

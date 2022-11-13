@@ -12,12 +12,21 @@
         "element_type": "minecraft:single_pool_element"
       }
     },
-    //Cave Spider
     {
-      "weight": 4,
+      "weight": 2,
       "element": {
         "location": "all_the_fan_made_discs:death_dungeon_base/zombie_spike_one",
         "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    //Cave Spider
+    {
+      "weight": 2,
+      "element": {
+        "location": "all_the_fan_made_discs:death_dungeon_base/cave_spider_spike_one",
+        "processors": "all_the_fan_made_discs:random_mossy_cobblestone",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }

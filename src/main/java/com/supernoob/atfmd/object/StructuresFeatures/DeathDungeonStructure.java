@@ -64,14 +64,14 @@ public class DeathDungeonStructure extends Structure {
         int z = spawnXZPosition.getZ();
         VerticalBlockSample columnOfBlocks = context.chunkGenerator().getColumnSample(x,z,HeightLimitView.create(-63,256),context.noiseConfig());
 
-        while (y <= ATFMD.CONFIG.stuff.Max_Y) {
+        while (y <= 120) {
             y++;
             BlockState areablock = columnOfBlocks.getState(y);
             if (areablock.getBlock() == Blocks.AIR) {
                 break;
             }
         }
-        if (y > ATFMD.CONFIG.stuff.Max_Y) {
+        if (y > 120) {
             return Optional.empty();
         }
         BlockPos blockpos = context.chunkPos().getCenterAtY(0);
@@ -93,6 +93,6 @@ public class DeathDungeonStructure extends Structure {
 
     @Override
     public StructureType<?> getType() {
-        return ATFMDStructures.BEDROCK_DISC;
+        return ATFMDStructures.DEATH_DUNGEON;
     }
 }
