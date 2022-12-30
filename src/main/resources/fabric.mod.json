@@ -11,7 +11,7 @@
     "sources":"https://github.com/SuperNoobYT/AllTheFanMadeDiscs",
     "issues":"https://github.com/SuperNoobYT/AllTheFanMadeDiscs/issues"
   },
-  "license":"CC0-1.0",
+  "license":"MIT",
   "icon":"assets/all_the_fan_made_discs/icon.png",
   "environment":"*",
   "entrypoints":{
