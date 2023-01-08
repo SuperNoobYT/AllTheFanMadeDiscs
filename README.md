@@ -6,7 +6,7 @@ This mod is inspired from the ressources packs 'All Fan Made Discs Minecraft' Pa
 
 For The moment only 25 out of 78 discs are obtainnable in survival mode (WIP).
 
-List of Music :
+List of Musics :
 
 By 4Pointzx : 12, Prism
 
