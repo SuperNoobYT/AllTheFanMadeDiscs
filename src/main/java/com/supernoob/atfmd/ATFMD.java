@@ -47,7 +47,7 @@ public class ATFMD implements ModInitializer {
                 stacks.add(new ItemStack(ModItems.CORAL_LULLABY));
                 stacks.add(new ItemStack(ModItems.CRADLE));
                 stacks.add(new ItemStack(ModItems.DEEP));
-                stacks.add(new ItemStack(ModItems.DEEPSTATE));
+                stacks.add(new ItemStack(ModItems.DOWNWARD));
                 stacks.add(new ItemStack(ModItems.DESCENT));
                 stacks.add(new ItemStack(ModItems.DRIFTER));
                 stacks.add(new ItemStack(ModItems.ENDERWAVE));
