@@ -26,7 +26,7 @@ By Chill Crafter : Phantom
 
 By Deesaster : Float
 
-By Epicuras : Cradle, Deepstate, Fledling
+By Epicuras : Cradle, Downward, Fledling
 
 By E_Pixelz / : Arcade, Ice and Rain
 
