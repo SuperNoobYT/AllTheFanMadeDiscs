@@ -206,20 +206,20 @@
       }
     ]
   },
-  "deepstate": {
-    "category": "record",
-    "sounds": [
-      {
-        "name": "all_the_fan_made_discs:deepstate",
-        "stream": true
-      }
-    ]
-  },
   "descent": {
     "category": "record",
     "sounds": [
       {
         "name": "all_the_fan_made_discs:descent",
+        "stream": true
+      }
+    ]
+  },
+  "downward": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "all_the_fan_made_discs:downward",
         "stream": true
       }
     ]

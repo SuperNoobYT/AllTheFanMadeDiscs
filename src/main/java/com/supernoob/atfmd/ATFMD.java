@@ -48,8 +48,8 @@ public class ATFMD implements ModInitializer {
                 entries.add(ModItems.CORAL_LULLABY);
                 entries.add(ModItems.CRADLE);
                 entries.add(ModItems.DEEP);
-                entries.add(ModItems.DEEPSTATE);
                 entries.add(ModItems.DESCENT);
+                entries.add(ModItems.DOWNWARD);
                 entries.add(ModItems.DRIFTER);
                 entries.add(ModItems.ENDERWAVE);
                 entries.add(ModItems.ETHERAL);
