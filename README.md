@@ -22,6 +22,8 @@ By Black Jacket : Vibrate
 
 By CarrotAndCo : Carrot
 
+By Case : Prismarine
+
 By Chill Crafter : Phantom
 
 By Deesaster : Float
@@ -89,6 +91,8 @@ By Terraainn : Deep, Descent, Finale, Lush, Remnant, Steve, Storm
 By Thaumic Lad : Orestep
 
 By The Bling-Bling Cheese : Birch bop, Brain sploshed, Fort-stress, Time
+
+By The Watcher : Withering
 
 By ToastDot.39 : Weird
 
