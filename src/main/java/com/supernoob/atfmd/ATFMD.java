@@ -91,6 +91,7 @@ public class ATFMD implements ModInitializer {
                 entries.add(ModItems.STORM);
                 entries.add(ModItems.STRING);
                 entries.add(ModItems.TALL);
+                entries.add(ModItems.THE_LOST_SOUL);
                 entries.add(ModItems.TIME);
                 entries.add(ModItems.TRICKS);
                 entries.add(ModItems.TROUBLE_IN_THE_MANSION);

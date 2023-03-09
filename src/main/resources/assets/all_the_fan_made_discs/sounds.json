@@ -593,6 +593,15 @@
       }
     ]
   },
+  "the_lost_soul": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "all_the_fan_made_discs:the_lost_soul",
+        "stream": true
+      }
+    ]
+  },
   "time": {
     "category": "record",
     "sounds": [
