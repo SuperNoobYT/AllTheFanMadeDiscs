@@ -1,1 +1,21 @@
-{"type":"chest","pools":[{"rolls":1,"entries":[{"type":"empty","weight":9},{"type":"item","weight":2,"name":"all_the_fan_made_discs:music_disc_fort_stress"}]}]}
+{
+  "type":"chest",
+  "pools":
+  [
+    {
+      "rolls":1,
+      "entries":
+      [
+        {
+          "type":"empty",
+          "weight":9
+        },
+        {
+          "type":"item",
+          "weight":2,
+          "name":"all_the_fan_made_discs:music_disc_fort_stress"
+        }
+      ]
+    }
+  ]
+}
