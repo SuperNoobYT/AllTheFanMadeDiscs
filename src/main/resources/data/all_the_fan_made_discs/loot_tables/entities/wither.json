@@ -1,1 +1,16 @@
-{"type":"entity","pools":[{"rolls":1,"entries":[{"type":"item","name":"all_the_fan_made_discs:music_disc_finale"}]}]}
+{
+  "type":"entity",
+  "pools":
+  [
+    {
+      "rolls":1,
+      "entries":
+      [
+        {
+          "type":"item",
+          "name":"all_the_fan_made_discs:music_disc_finale"
+        }
+      ]
+    }
+  ]
+}
