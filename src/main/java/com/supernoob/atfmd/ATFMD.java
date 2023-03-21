@@ -24,7 +24,7 @@ public class ATFMD implements ModInitializer {
     public static final ItemGroup ATFMD_TAB = FabricItemGroup.builder(new Identifier("example", "test_group"))
             .displayName(Text.literal("ATFMD"))
             .icon(() -> new ItemStack(ModItems.LUSH))
-            .entries((enabledFeatures, entries, operatorEnabled) -> {
+            .entries((context, entries) -> {
                 entries.add(ModItems.TWELVE);
                 entries.add(ModItems.FOURTEEN);
                 entries.add(ModItems.FOURTEEN_REVAMPED);
