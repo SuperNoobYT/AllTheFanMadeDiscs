@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "all_the_fan_made_discs:item/wandering_soul"
+    "layer0": "all_the_fan_made_discs:items/wandering_soul"
   }
 }

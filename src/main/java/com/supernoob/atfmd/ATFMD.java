@@ -106,6 +106,7 @@ public class ATFMD implements ModInitializer {
                 stacks.add(new ItemStack(ModItems.WOZZY));
             })
             .build();
+
     @Override
     public void onInitialize() {
         ATFMDStructures.registerStructureFeatures();

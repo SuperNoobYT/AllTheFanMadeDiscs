@@ -1,9 +1,9 @@
 package com.supernoob.atfmd.registry;
 
 import com.supernoob.atfmd.ATFMD;
-import net.minecraft.util.registry.Registry;
 import net.minecraft.sound.SoundEvent;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.registry.Registry;
 
 public class ModSounds {
 
@@ -30,8 +30,8 @@ public class ModSounds {
     public static final SoundEvent SOUND_CORAL_LULLABY = register("coral_lullaby");
     public static final SoundEvent SOUND_CRADLE = register("cradle");
     public static final SoundEvent SOUND_DEEP = register("deep");
-    public static final SoundEvent SOUND_DESCENT = register("descent");
     public static final SoundEvent SOUND_DOWNWARD = register("downward");
+    public static final SoundEvent SOUND_DESCENT = register("descent");
     public static final SoundEvent SOUND_DRIFTER = register("drifter");
     public static final SoundEvent SOUND_ENDERWAVE = register("enderwave");
     public static final SoundEvent SOUND_ETHERAL = register("etheral");
@@ -92,6 +92,7 @@ public class ModSounds {
         Identifier id = new Identifier(ATFMD.MOD_ID, name);
         return Registry.register(Registry.SOUND_EVENT, id, new SoundEvent(id));
     }
-    public static void init() { }
-}
 
+    public static void init() { }
+
+}

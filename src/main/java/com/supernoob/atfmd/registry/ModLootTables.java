@@ -42,10 +42,8 @@ public class ModLootTables {
     public static final Identifier ELDER_GUARDIAN_ID = new Identifier("minecraft", "entities/elder_guardian");
     public static final Identifier TRICKS_LOOTTABLE_ID = new Identifier(ATFMD.MOD_ID, "entities/witch");
     public static final Identifier WITCH_ID = new Identifier("minecraft", "entities/witch");
-    public static final Identifier THE_LOST_SOUL_LOOTTABLE_ID = new Identifier(ATFMD.MOD_ID, "entities/ghast");
-    public static final Identifier GHAST_ID = new Identifier("minecraft", "entities/ghast");
-    public static final Identifier CARROT_LOOTTABLE_ID = new Identifier(ATFMD.MOD_ID, "blocks/carrots");
-    public static final Identifier CARROTS_ID = new Identifier("minecraft", "blocks/carrots");
+    public static final Identifier VIBRATE_LOOTTABLE_ID = new Identifier(ATFMD.MOD_ID, "entities/warden");
+    public static final Identifier WARDEN_ID = new Identifier("minecraft", "entities/warden");
 
     public static void init() {
         LootTable.ModifyLootTable(ABANDONED_MINESHAFT_ID, STRING_LOOTTABLE_ID);
@@ -66,7 +64,6 @@ public class ModLootTables {
         LootTable.ModifyLootTable(ZOMBIE_ID, FOURTEEN_REVAMP_LOOTTABLE_ID);
         LootTable.ModifyLootTable(ELDER_GUARDIAN_ID, PRISMARINE_LOOTTABLE_ID);
         LootTable.ModifyLootTable(WITCH_ID, TRICKS_LOOTTABLE_ID);
-        LootTable.ModifyLootTable(GHAST_ID, THE_LOST_SOUL_LOOTTABLE_ID);
-        LootTable.ModifyLootTable(CARROTS_ID, CARROT_LOOTTABLE_ID);
+        LootTable.ModifyLootTable(WARDEN_ID, VIBRATE_LOOTTABLE_ID);
     }
 }

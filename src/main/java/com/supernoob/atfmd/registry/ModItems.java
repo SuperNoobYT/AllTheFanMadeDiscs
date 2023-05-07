@@ -3,10 +3,10 @@ package com.supernoob.atfmd.registry;
 import com.supernoob.atfmd.ATFMD;
 import com.supernoob.atfmd.object.items.MusicDisc;
 import net.minecraft.item.Item;
-import net.minecraft.util.registry.Registry;
 import net.minecraft.sound.SoundEvent;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.Rarity;
+import net.minecraft.util.registry.Registry;
 
 public class ModItems {
 
@@ -33,8 +33,8 @@ public class ModItems {
     public static final Item CORAL_LULLABY = register("music_disc_coral_lullaby", ModSounds.SOUND_CORAL_LULLABY);
     public static final Item CRADLE = register("music_disc_cradle", ModSounds.SOUND_CRADLE);
     public static final Item DEEP = register("music_disc_deep", ModSounds.SOUND_DEEP);
+    public static final Item DOWNWARD = register("music_disc_deepstate", ModSounds.SOUND_DOWNWARD);
     public static final Item DESCENT = register("music_disc_descent", ModSounds.SOUND_DESCENT);
-    public static final Item DOWNWARD = register("music_disc_downward", ModSounds.SOUND_DOWNWARD);
     public static final Item DRIFTER = register("music_disc_drifter", ModSounds.SOUND_DRIFTER);
     public static final Item ENDERWAVE = register("music_disc_enderwave", ModSounds.SOUND_ENDERWAVE);
     public static final Item ETHERAL = register("music_disc_etheral", ModSounds.SOUND_ETHERAL);
@@ -92,8 +92,8 @@ public class ModItems {
     public static final Item WOZZY = register("music_disc_wozzy", ModSounds.SOUND_WOZZY);
 
     public static Item register(String id, SoundEvent sound) {
-        Item.Settings settings = new Item.Settings().rarity(Rarity.RARE).maxCount(1);
-        return Registry.register(Registry.ITEM, new Identifier(ATFMD.MOD_ID, id), new MusicDisc(14, sound, settings, 400));
+        Item.Settings settings = new Item.Settings().rarity(Rarity.RARE).maxCount(1).group(ATFMD.ATFMD_TAB);
+        return Registry.register(Registry.ITEM, new Identifier(ATFMD.MOD_ID, id), new MusicDisc(14, sound, settings));
     }
 
     public static void init() { }

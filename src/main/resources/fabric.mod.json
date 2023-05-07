@@ -5,13 +5,13 @@
   "name":"All The Fan Made Discs",
   "description":"This mod is inspired from the resources packs 'All Fan Made Discs Minecraft' Part 1,2,3,4,5 and 6 by yomikester238",
   "authors":["Supernoob","yomikester238",""],
-  "contributors":["Music discs artists :","","Terraainn","The Bling-Bling Cheese","Firch","NapstheBlock","Epicuras","Yekonaip","Musical-MOE","ToastDot.39","CarrotAndCo","maplemickey","Deesaster","Black Jacket","4Pointzx","Waelsor","BenjaMint","rsym","Someone","Gwyd","ChillCrafter","Thaumic Lad","Pikpik36","Spooky Skeleton","JamiesName","prod. akobel","mango uni","A Peace of Pie","GreenBurning","E_Pixelz /","Pugasaur","Tandem Music","Jupiter and co","Pretty Decent","Sillst","Rip Bot308","Kowhai","Medlek","Skilpadde 14","Lost Angel","2R8B7","RinaXTune","Repulsive-Vegetable5","Kam Yumayui","wet hamster","Beto Damian","Toma","Abysser GG","zoo937","RedWolfNinja","The Watcher","Case"],
+  "contributors":["Music discs artists :","","Terraainn","The Bling-Bling Cheese","Firch","NapstheBlock","Epicuras","Yekonaip","Musical-MOE","ToastDot.39","CarrotAndCo","maplemickey","Deesaster","Black Jacket","4Pointzx","Waelsor","BenjaMint","rsym","Someone","Gwyd","ChillCrafter","Thaumic Lad","Pikpik36","Spooky Skeleton","JamiesName","prod. akobe","mango uni","A Peace of Pie","GreenBurning","E_Pixelz /","Pugasaur","Tandem Music","Jupiter and co","Pretty Decent","Sillst","Rip Bot308","Kowhai","Medlek","Skilpadde 14","Lost Angel","2R8B7","RinaXTune","Repulsive-Vegetable5","Kam Yumayui","wet hamster","Beto Damian","Toma","Abysser GG","zoo937","RedWolfNinja","The Watcher"],
   "contact":{
     "homepage":"https://www.curseforge.com/minecraft/mc-mods/all-the-fan-made-discs",
     "sources":"https://github.com/SuperNoobYT/AllTheFanMadeDiscs",
     "issues":"https://github.com/SuperNoobYT/AllTheFanMadeDiscs/issues"
   },
-  "license":"ATFMD License",
+  "license":"CC0-1.0",
   "icon":"assets/all_the_fan_made_discs/icon.png",
   "environment":"*",
   "entrypoints":{
@@ -21,10 +21,10 @@
   "mixins":["atfmd.mixins.json"],
   "depends":
   {
-    "cloth-config": ">=8.2.88",
+    "cloth-config": ">=7.0.72",
     "fabricloader":">=0.14.6",
-    "fabric":">=0.76.0",
-    "minecraft":">=1.19.2",
+    "fabric":">=0.56.0",
+    "minecraft":">=1.19",
     "java":">=17"
   },
   "suggests":{},
