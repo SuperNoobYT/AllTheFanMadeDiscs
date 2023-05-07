@@ -1,8 +1,7 @@
 package com.supernoob.atfmd.registry;
 
 import com.supernoob.atfmd.ATFMD;
-import net.minecraft.registry.Registries;
-import net.minecraft.registry.Registry;
+import net.minecraft.util.registry.Registry;
 import net.minecraft.sound.SoundEvent;
 import net.minecraft.util.Identifier;
 
@@ -91,7 +90,7 @@ public class ModSounds {
 
     public static SoundEvent register(String name) {
         Identifier id = new Identifier(ATFMD.MOD_ID, name);
-        return Registry.register(Registries.SOUND_EVENT, id, SoundEvent.of(id));
+        return Registry.register(Registry.SOUND_EVENT, id, new SoundEvent(id));
     }
     public static void init() { }
 }

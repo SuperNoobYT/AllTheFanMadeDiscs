@@ -3,11 +3,10 @@ package com.supernoob.atfmd.registry;
 import com.supernoob.atfmd.ATFMD;
 import com.supernoob.atfmd.object.items.MusicDisc;
 import net.minecraft.item.Item;
-import net.minecraft.registry.Registries;
+import net.minecraft.util.registry.Registry;
 import net.minecraft.sound.SoundEvent;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.Rarity;
-import net.minecraft.registry.Registry;
 
 public class ModItems {
 
@@ -94,7 +93,7 @@ public class ModItems {
 
     public static Item register(String id, SoundEvent sound) {
         Item.Settings settings = new Item.Settings().rarity(Rarity.RARE).maxCount(1);
-        return Registry.register(Registries.ITEM, new Identifier(ATFMD.MOD_ID, id), new MusicDisc(14, sound, settings, 400));
+        return Registry.register(Registry.ITEM, new Identifier(ATFMD.MOD_ID, id), new MusicDisc(14, sound, settings, 400));
     }
 
     public static void init() { }
