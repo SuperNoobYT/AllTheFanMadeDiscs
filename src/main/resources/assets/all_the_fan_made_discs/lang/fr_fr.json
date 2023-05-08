@@ -160,7 +160,7 @@
   "item.all_the_fan_made_discs.music_disc_wozzy": "Disque",
   "item.all_the_fan_made_discs.music_disc_wozzy.desc": "Beto Damian - Wozzy",
   "itemGroup.all_the_fan_made_discs.atfmd_tab": "ATFMD",
-  "text.autoconfig.all_the_fan_made_discs.title": "ATFMD Config",
+  "text.autoconfig.all_the_fan_made_discs.title": "Option du mod ATFMD",
   "text.autoconfig.all_the_fan_made_discs.option.stuff": "Hauteur de génération de la structure du disc bedrock [WIP]",
   "text.autoconfig.all_the_fan_made_discs.option.stuff.Max_Y": "Max Y",
   "text.autoconfig.all_the_fan_made_discs.option.stuff.Min_Y": "Min Y",
