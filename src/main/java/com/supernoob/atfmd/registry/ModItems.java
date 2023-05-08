@@ -92,8 +92,8 @@ public class ModItems {
     public static final Item WOZZY = register("music_disc_wozzy", ModSounds.SOUND_WOZZY);
 
     public static Item register(String id, SoundEvent sound) {
-        Item.Settings settings = new Item.Settings().rarity(Rarity.RARE).maxCount(1).group(ATFMD.ATFMD_TAB);
-        return Registry.register(Registry.ITEM, new Identifier(ATFMD.MOD_ID, id), new MusicDisc(14, sound, settings));
+        Item.Settings settings = new Item.Settings().rarity(Rarity.RARE).maxCount(1);
+        return Registry.register(Registry.ITEM, new Identifier(ATFMD.MOD_ID, id), new MusicDisc(14, sound, settings, 400));
     }
 
     public static void init() { }

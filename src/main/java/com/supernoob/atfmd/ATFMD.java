@@ -14,7 +14,6 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 public class ATFMD implements ModInitializer {
-
     public static final String MOD_ID = "all_the_fan_made_discs";
     public static final Logger LOGGER = LogManager.getLogger();
 
@@ -116,4 +115,3 @@ public class ATFMD implements ModInitializer {
         ModConfig.init();
     }
 }
-

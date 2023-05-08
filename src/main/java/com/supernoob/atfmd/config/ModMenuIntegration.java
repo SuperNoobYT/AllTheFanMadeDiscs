@@ -10,7 +10,7 @@ public class ModMenuIntegration implements ModMenuApi {
     @Override
     public ConfigScreenFactory<?> getModConfigScreenFactory() {
         ConfigBuilder builder = ConfigBuilder.create();
-        builder.setSavingRunnable(() -> ModConfig.init());
+        builder.setSavingRunnable(ModConfig::init);
         return parent -> AutoConfig.getConfigScreen(ModConfig.class, parent).get();
     }
 }
