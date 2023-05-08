@@ -5,13 +5,13 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "all_the_fan_made_discs:music_disc_the_lost_soul",
-        },
-        {
           "type": "minecraft:empty",
           "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "all_the_fan_made_discs:music_disc_the_lost_soul"
         }
       ],
       "conditions": [
@@ -36,4 +36,5 @@
     }
   ]
 }
+
 
