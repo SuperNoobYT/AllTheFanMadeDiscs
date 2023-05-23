@@ -1,8 +1,8 @@
 package com.supernoob.atfmd.registry;
 
 import com.supernoob.atfmd.ATFMD;
-import com.supernoob.atfmd.object.items.MusicDisc;
 import net.minecraft.item.Item;
+import net.minecraft.item.MusicDiscItem;
 import net.minecraft.registry.Registries;
 import net.minecraft.sound.SoundEvent;
 import net.minecraft.util.Identifier;
@@ -15,7 +15,7 @@ public class ModItems {
     public static final Item FOURTEEN = register("music_disc_14", ModSounds.SOUND_FOURTEEN);
     public static final Item FOURTEEN_REVAMPED = register("music_disc_14_revamped", ModSounds.SOUND_FOURTEEN_REVAMPED);
     public static final Item EIGHTEEN = register("music_disc_18", ModSounds.SOUND_EIGHTEEN);
-    public static final Item ANTI = register("music_disc_anti", ModSounds.SOUND_ANTI);
+    public static final Item ANTI = register("music_disc_anti",ModSounds.SOUND_ANTI);
     public static final Item ARCADE = register("music_disc_arcade", ModSounds.SOUND_ARCADE);
     public static final Item AXOLOTL = register("music_disc_axolotl", ModSounds.SOUND_AXOLOTL);
     public static final Item BEDROCK = register("music_disc_bedrock", ModSounds.SOUND_BEDROCK);
@@ -92,11 +92,10 @@ public class ModItems {
     public static final Item WOODLAND = register("music_disc_woodland", ModSounds.SOUND_WOODLAND);
     public static final Item WOZZY = register("music_disc_wozzy", ModSounds.SOUND_WOZZY);
 
-    public static Item register(String id, SoundEvent sound) {
+    private static Item register(String id, SoundEvent sound) {
         Item.Settings settings = new Item.Settings().rarity(Rarity.RARE).maxCount(1);
-        return Registry.register(Registries.ITEM, new Identifier(ATFMD.MOD_ID, id), new MusicDisc(14, sound, settings, 400));
+        return Registry.register(Registries.ITEM, new Identifier(ATFMD.MOD_ID, id), new MusicDiscItem(15, sound, settings, 400));
     }
-
     public static void init() { }
 
 }
