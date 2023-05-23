@@ -73,8 +73,8 @@ public class ATFMD implements ModInitializer {
                 entries.add(ModItems.MUSHROOM_ISLAND);
                 entries.add(ModItems.OCEAN_DISC);
                 entries.add(ModItems.OMEN);
-                entries.add(ModItems.OVER);
                 entries.add(ModItems.ORESTEP);
+                entries.add(ModItems.OVER);
                 entries.add(ModItems.OXIDIZATION);
                 entries.add(ModItems.PHANTOM);
                 entries.add(ModItems.PILLAGED);
