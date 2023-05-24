@@ -9,6 +9,8 @@ import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
+import net.minecraft.registry.Registries;
+import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import org.apache.logging.log4j.LogManager;
@@ -21,7 +23,7 @@ public class ATFMD implements ModInitializer {
 
     public static ModConfig CONFIG;
 
-    public static final ItemGroup ATFMD_TAB = FabricItemGroup.builder(new Identifier("example", "test_group"))
+    public static final ItemGroup ATFMD_TAB = FabricItemGroup.builder()
             .displayName(Text.literal("ATFMD"))
             .icon(() -> new ItemStack(ModItems.LUSH))
             .entries((context, entries) -> {
