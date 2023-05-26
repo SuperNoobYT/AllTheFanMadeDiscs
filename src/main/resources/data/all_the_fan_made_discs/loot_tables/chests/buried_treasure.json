@@ -14,6 +14,11 @@
           "type":"item",
           "weight":1,
           "name":"all_the_fan_made_discs:music_disc_axolotl"
+        },
+        {
+          "type":"item",
+          "weight":1,
+          "name":"all_the_fan_made_discs:music_disc_voyage"
         }
       ]
     }
