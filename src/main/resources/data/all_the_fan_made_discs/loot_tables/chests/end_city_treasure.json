@@ -9,7 +9,7 @@
       },
       "entries":[
         {"type":"empty",
-          "weight":6
+          "weight":5
         },
         {
           "type":"item",
@@ -25,6 +25,11 @@
           "type":"item",
           "weight":1,
           "name":"all_the_fan_made_discs:music_disc_weird"
+        },
+        {
+          "type":"item",
+          "weight":1,
+          "name":"all_the_fan_made_discs:music_disc_etheral"
         }
       ]
     }
