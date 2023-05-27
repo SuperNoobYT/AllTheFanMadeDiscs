@@ -8,7 +8,8 @@
         "max":2
       },
       "entries":[
-        {"type":"empty",
+        {
+          "type":"empty",
           "weight":5
         },
         {
