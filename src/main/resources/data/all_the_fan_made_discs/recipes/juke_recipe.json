@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:music_disc_11"
+  },
+  "addition": {
+    "item": "minecraft:jukebox"
+  },
+  "result": {}
+}
