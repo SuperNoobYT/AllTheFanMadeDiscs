@@ -9,6 +9,7 @@ import net.minecraft.block.Blocks;
 import net.minecraft.registry.entry.RegistryEntry;
 import net.minecraft.structure.pool.StructurePool;
 import net.minecraft.structure.pool.StructurePoolBasedGenerator;
+import net.minecraft.structure.pool.alias.StructurePoolAliasLookup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.HeightLimitView;
@@ -40,12 +41,12 @@ public class BedrockDiscStructure extends Structure {
     private final int maxDistanceFromCenter;
 
     public BedrockDiscStructure(Structure.Config config,
-                         RegistryEntry<StructurePool> startPool,
-                         Optional<Identifier> startJigsawName,
-                         int size,
-                         HeightProvider startHeight,
-                         Optional<Heightmap.Type> projectStartToHeightmap,
-                         int maxDistanceFromCenter)
+                                RegistryEntry<StructurePool> startPool,
+                                Optional<Identifier> startJigsawName,
+                                int size,
+                                HeightProvider startHeight,
+                                Optional<Heightmap.Type> projectStartToHeightmap,
+                                int maxDistanceFromCenter)
     {
         super(config);
         this.startPool = startPool;
@@ -86,7 +87,8 @@ public class BedrockDiscStructure extends Structure {
                         blockpos,
                         false,
                         this.projectStartToHeightmap,
-                        this.maxDistanceFromCenter);
+                        this.maxDistanceFromCenter,
+                        StructurePoolAliasLookup.EMPTY);
 
         return structurePiecesGenerator;
     }
